@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-03-13">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="networkx_key" type="long" />
+    </attributes>
+    <nodes>
+      <node id="GNC" label="GNC" />
+      <node id="CSJ" label="CSJ" />
+      <node id="Congreso" label="Congreso" />
+      <node id="FGN" label="FGN" />
+      <node id="ANI" label="ANI" />
+      <node id="Presidencia" label="Presidencia" />
+      <node id="MinCo" label="MinCo" />
+      <node id="Cormag" label="Cormag" />
+      <node id="INCO" label="INCO" />
+      <node id="JMSC" label="JMSC" />
+      <node id="CampanaPres2014" label="CampanaPres2014" />
+      <node id="RobertoPrieto" label="RobertoPrieto" />
+      <node id="CampanaPres2010" label="CampanaPres2010" />
+      <node id="PresidenciaJMSC" label="PresidenciaJMSC" />
+      <node id="MinTansJMSC" label="MinTansJMSC" />
+      <node id="SuperMinJMSC" label="SuperMinJMSC" />
+      <node id="MinCoJMSC" label="MinCoJMSC" />
+      <node id="CeciliaAlvarezCorrea" label="CeciliaAlvarezCorrea" />
+      <node id="GinaParody" label="GinaParody" />
+      <node id="MinEdJMSC" label="MinEdJMSC" />
+      <node id="PlinioOlano" label="PlinioOlano" />
+      <node id="MiguelElias" label="MiguelElias" />
+      <node id="MiguelPenaloza" label="MiguelPenaloza" />
+      <node id="EliasVidal" label="EliasVidal" />
+      <node id="LeonidasBustos" label="LeonidasBustos" />
+      <node id="NHMN" label="NHMN" />
+      <node id="SuperMin" label="SuperMin" />
+      <node id="LCSA" label="LCSA" />
+      <node id="GAVAL" label="GAVAL" />
+      <node id="CFC" label="CFC" />
+      <node id="JEliasMelo" label="JEliasMelo" />
+      <node id="LCSG" label="LCSG" />
+      <node id="JGilVillegas" label="JGilVillegas" />
+      <node id="HPalaciosMejia" label="HPalaciosMejia" />
+      <node id="GustavoRamirez" label="GustavoRamirez" />
+      <node id="DiegoSaravia" label="DiegoSaravia" />
+      <node id="Odebrecht" label="Odebrecht" />
+      <node id="ConstODB" label="ConstODB" />
+      <node id="EderPFerracuti" label="EderPFerracuti" />
+      <node id="ConsRS" label="ConsRS" />
+      <node id="MMaragoni" label="MMaragoni" />
+      <node id="Consol" label="Consol" />
+      <node id="AHideaki" label="AHideaki" />
+      <node id="C-OG" label="C-OG" />
+      <node id="EduardoZambrano" label="EduardoZambrano" />
+      <node id="FedeGaviria" label="FedeGaviria" />
+      <node id="AIdeaki" label="AIdeaki" />
+      <node id="ODB" label="ODB" />
+      <node id="LMameri" label="LMameri" />
+      <node id="PresidenciaAUV" label="PresidenciaAUV" />
+      <node id="RSII" label="RSII" />
+      <node id="MarioUribe" label="MarioUribe" />
+      <node id="Parapolitica" label="Parapolitica" />
+      <node id="OttoB" label="OttoB" />
+      <node id="CSSConst" label="CSSConst" />
+      <node id="Latinvest" label="Latinvest" />
+      <node id="Episol" label="Episol" />
+      <node id="GSolarte" label="GSolarte" />
+      <node id="CarlosSolarte" label="CarlosSolarte" />
+      <node id="BernardoNElias" label="BernardoNElias" />
+      <node id="RS-SII" label="RS-SII" />
+      <node id="YesidArocha" label="YesidArocha" />
+      <node id="CUPanama" label="CUPanama" />
+      <node id="GabrielDumar" label="GabrielDumar" />
+      <node id="SION" label="SION" />
+      <node id="TTU" label="TTU" />
+      <node id="FernandoPardinasPuente" label="FernandoPardinasPuente" />
+      <node id="TransEqLaSabana" label="TransEqLaSabana" />
+      <node id="AllTechCol" label="AllTechCol" />
+      <node id="InvCoal" label="InvCoal" />
+      <node id="ProfdeBolsa" label="ProfdeBolsa" />
+      <node id="AlbertoMariño" label="AlbertoMariño" />
+      <node id="GabrielGarciaM" label="GabrielGarciaM" />
+      <node id="INCO(ANI)" label="INCO(ANI)" />
+      <node id="MinTransAUV" label="MinTransAUV" />
+      <node id="LuizBueno" label="LuizBueno" />
+      <node id="JuanSeCorrea" label="JuanSeCorrea" />
+      <node id="GustavoATorres" label="GustavoATorres" />
+      <node id="M&amp;MACLtda" label="M&amp;MACLtda" />
+      <node id="MHarasik" label="MHarasik" />
+      <node id="EduardoBueno" label="EduardoBueno" />
+      <node id="SocRS" label="SocRS" />
+      <node id="CSS" label="CSS" />
+      <node id="MODB" label="MODB" />
+      <node id="EAAB" label="EAAB" />
+      <node id="JEPizano" label="JEPizano" />
+      <node id="AndresCardona" label="AndresCardona" />
+      <node id="Tunjuelo-Canoas" label="Tunjuelo-Canoas" />
+      <node id="ConsCanoas" label="ConsCanoas" />
+      <node id="PaolaSolarte" label="PaolaSolarte" />
+      <node id="ContratoEstabilidadJuridica" label="ContratoEstabilidadJuridica" />
+      <node id="EstudioJuridicoMNALtda" label="EstudioJuridicoMNALtda" />
+      <node id="OtroSi" label="OtroSi" />
+      <node id="ConsejoEstado" label="ConsejoEstado" />
+      <node id="EstebanMoreno" label="EstebanMoreno" />
+      <node id="CampanaPresJMSC2010" label="CampanaPresJMSC2010" />
+      <node id="DavidPortilla" label="DavidPortilla" />
+      <node id="DirectorCampanaPresJMSC" label="DirectorCampanaPresJMSC" />
+      <node id="CesarGaviria" label="CesarGaviria" />
+      <node id="AndresSanmiguel" label="AndresSanmiguel" />
+      <node id="GisticLogistic" label="GisticLogistic" />
+      <node id="´LosBuldocer" label="´LosBuldocer" />
+      <node id="LosBuldocer" label="LosBuldocer" />
+      <node id="MBesaile" label="MBesaile" />
+      <node id="AAshton" label="AAshton" />
+      <node id="MariaVictoriaGuiarin" label="MariaVictoriaGuiarin" />
+      <node id="IFC" label="IFC" />
+      <node id="LuisFAndrade" label="LuisFAndrade" />
+      <node id="Otrosi" label="Otrosi" />
+      <node id="C-NVLN" label="C-NVLN" />
+      <node id="LJ" label="LJ" />
+      <node id="Valorcon" label="Valorcon" />
+      <node id="MNA" label="MNA" />
+      <node id="NCMH" label="NCMH" />
+      <node id="NHMAbogados" label="NHMAbogados" />
+      <node id="BancoAgrario" label="BancoAgrario" />
+      <node id="BancodeOccidente" label="BancodeOccidente" />
+      <node id="ContratoTransaccion" label="ContratoTransaccion" />
+      <node id="Bribe" label="Bribe" />
+      <node id="CONPES" label="CONPES" />
+    </nodes>
+    <edges>
+      <edge source="GNC" target="CSJ" id="0" />
+      <edge source="GNC" target="Congreso" id="1" />
+      <edge source="GNC" target="FGN" id="2" />
+      <edge source="GNC" target="ANI" id="3" />
+      <edge source="GNC" target="Presidencia" id="4" />
+      <edge source="GNC" target="MinCo" id="5" />
+      <edge source="GNC" target="Cormag" id="6" />
+      <edge source="CSJ" target="LeonidasBustos" id="7" />
+      <edge source="Congreso" target="PlinioOlano" id="8" />
+      <edge source="Congreso" target="MiguelElias" id="9" />
+      <edge source="Congreso" target="EliasVidal" id="10" />
+      <edge source="ANI" target="INCO" id="11" />
+      <edge source="ANI" target="JuanSeCorrea" id="12" />
+      <edge source="ANI" target="LuisFAndrade" id="13" />
+      <edge source="Presidencia" target="GabrielGarciaM" id="14" />
+      <edge source="Presidencia" target="CampanaPresJMSC2010" id="15" />
+      <edge source="MinCo" target="NHMN" id="16" />
+      <edge source="MinCo" target="ContratoEstabilidadJuridica" id="17" />
+      <edge source="Cormag" target="C-NVLN" id="18" />
+      <edge source="INCO" target="EstudioJuridicoMNALtda" id="19" />
+      <edge source="JMSC" target="CampanaPres2014" id="20" />
+      <edge source="JMSC" target="CampanaPresJMSC2010" id="21" />
+      <edge source="RobertoPrieto" target="CampanaPres2010" id="22" />
+      <edge source="CampanaPres2010" target="PresidenciaJMSC" id="23" />
+      <edge source="PresidenciaJMSC" target="MinTansJMSC" id="24" />
+      <edge source="PresidenciaJMSC" target="SuperMinJMSC" id="25" />
+      <edge source="PresidenciaJMSC" target="MinCoJMSC" id="26" />
+      <edge source="MinTansJMSC" target="MiguelPenaloza" id="27" />
+      <edge source="MinCoJMSC" target="CeciliaAlvarezCorrea" id="28" />
+      <edge source="CeciliaAlvarezCorrea" target="GinaParody" id="29" />
+      <edge source="CeciliaAlvarezCorrea" target="OtroSi" id="30" />
+      <edge source="CeciliaAlvarezCorrea" target="ConsejoEstado" id="31" />
+      <edge source="CeciliaAlvarezCorrea" target="C-OG" id="32" />
+      <edge source="CeciliaAlvarezCorrea" target="RS-SII" id="33" />
+      <edge source="GinaParody" target="MinEdJMSC" id="34" />
+      <edge source="GinaParody" target="Otrosi" id="35" />
+      <edge source="GinaParody" target="CONPES" id="36" />
+      <edge source="PlinioOlano" target="´LosBuldocer" id="37" />
+      <edge source="MiguelElias" target="EliasVidal" id="38" />
+      <edge source="MiguelElias" target="FedeGaviria" id="39" />
+      <edge source="MiguelElias" target="JuanSeCorrea" id="40" />
+      <edge source="MiguelPenaloza" target="LosBuldocer" id="41" />
+      <edge source="LeonidasBustos" target="Episol" id="42" />
+      <edge source="NHMN" target="SuperMin" id="43" />
+      <edge source="NHMN" target="GAVAL" id="44" />
+      <edge source="NHMN" target="CFC" id="45" />
+      <edge source="NHMN" target="SocRS" id="46" />
+      <edge source="NHMN" target="LCSA" id="47" />
+      <edge source="NHMN" target="MHarasik" id="48" />
+      <edge source="NHMN" target="JGilVillegas" id="49" />
+      <edge source="NHMN" target="EstudioJuridicoMNALtda" id="50" />
+      <edge source="NHMN" target="AlbertoMariño" id="51" />
+      <edge source="NHMN" target="C-OG" id="52" />
+      <edge source="NHMN" target="OtroSi" id="53" />
+      <edge source="NHMN" target="MNA" id="54" />
+      <edge source="NHMN" target="ContratoTransaccion" id="55" />
+      <edge source="NHMN" target="CONPES" id="56" />
+      <edge source="LCSA" target="GAVAL" id="57" />
+      <edge source="LCSA" target="LCSG" id="58" />
+      <edge source="GAVAL" target="CFC" id="59" />
+      <edge source="GAVAL" target="LCSG" id="60" />
+      <edge source="GAVAL" target="DiegoSaravia" id="61" />
+      <edge source="GAVAL" target="BancodeOccidente" id="62" />
+      <edge source="CFC" target="JEliasMelo" id="63" />
+      <edge source="CFC" target="JGilVillegas" id="64" />
+      <edge source="CFC" target="HPalaciosMejia" id="65" />
+      <edge source="CFC" target="GustavoRamirez" id="66" />
+      <edge source="CFC" target="ConsRS" id="67" />
+      <edge source="CFC" target="Episol" id="68" />
+      <edge source="CFC" target="SocRS" id="69" />
+      <edge source="CFC" target="M&amp;MACLtda" id="70" />
+      <edge source="CFC" target="C-NVLN" id="71" />
+      <edge source="CFC" target="JEPizano" id="72" />
+      <edge source="JEliasMelo" target="GabrielGarciaM" id="73" />
+      <edge source="JEliasMelo" target="LuizBueno" id="74" />
+      <edge source="JEliasMelo" target="LMameri" id="75" />
+      <edge source="JEliasMelo" target="EduardoBueno" id="76" />
+      <edge source="JEliasMelo" target="JEPizano" id="77" />
+      <edge source="HPalaciosMejia" target="RS-SII" id="78" />
+      <edge source="DiegoSaravia" target="MariaVictoriaGuiarin" id="79" />
+      <edge source="Odebrecht" target="ConstODB" id="80" />
+      <edge source="Odebrecht" target="EderPFerracuti" id="81" />
+      <edge source="Odebrecht" target="MMaragoni" id="82" />
+      <edge source="Odebrecht" target="ConsRS" id="83" />
+      <edge source="Odebrecht" target="YesidArocha" id="84" />
+      <edge source="Odebrecht" target="CUPanama" id="85" />
+      <edge source="Odebrecht" target="SION" id="86" />
+      <edge source="Odebrecht" target="TTU" id="87" />
+      <edge source="Odebrecht" target="TransEqLaSabana" id="88" />
+      <edge source="Odebrecht" target="AllTechCol" id="89" />
+      <edge source="Odebrecht" target="InvCoal" id="90" />
+      <edge source="Odebrecht" target="ProfdeBolsa" id="91" />
+      <edge source="Odebrecht" target="LuizBueno" id="92" />
+      <edge source="Odebrecht" target="GabrielGarciaM" id="93" />
+      <edge source="Odebrecht" target="RS-SII" id="94" />
+      <edge source="Odebrecht" target="ConsCanoas" id="95" />
+      <edge source="Odebrecht" target="BernardoNElias" id="96" />
+      <edge source="Odebrecht" target="AndresSanmiguel" id="97" />
+      <edge source="Odebrecht" target="LosBuldocer" id="98" />
+      <edge source="Odebrecht" target="C-NVLN" id="99" />
+      <edge source="Odebrecht" target="ContratoTransaccion" id="100" />
+      <edge source="ConstODB" target="AHideaki" id="101" />
+      <edge source="ConstODB" target="ConsRS" id="102" />
+      <edge source="ConstODB" target="SocRS" id="103" />
+      <edge source="ConstODB" target="MODB" id="104" />
+      <edge source="ConstODB" target="OttoB" id="105" />
+      <edge source="ConstODB" target="C-NVLN" id="106" />
+      <edge source="ConstODB" target="MNA" id="107" />
+      <edge source="ConstODB" target="NCMH" id="108" />
+      <edge source="ConstODB" target="ContratoTransaccion" id="109" />
+      <edge source="EderPFerracuti" target="ConsRS" id="110" />
+      <edge source="EderPFerracuti" target="C-OG" id="111" />
+      <edge source="EderPFerracuti" target="JEPizano" id="112" />
+      <edge source="ConsRS" target="CSSConst" id="113" />
+      <edge source="ConsRS" target="Latinvest" id="114" />
+      <edge source="ConsRS" target="Episol" id="115" />
+      <edge source="ConsRS" target="GSolarte" id="116" />
+      <edge source="ConsRS" target="AlbertoMariño" id="117" />
+      <edge source="ConsRS" target="RS-SII" id="118" />
+      <edge source="ConsRS" target="GustavoATorres" id="119" />
+      <edge source="ConsRS" target="SION" id="120" />
+      <edge source="ConsRS" target="M&amp;MACLtda" id="121">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ConsRS" target="ContratoEstabilidadJuridica" id="122" />
+      <edge source="ConsRS" target="EstudioJuridicoMNALtda" id="123" />
+      <edge source="ConsRS" target="LosBuldocer" id="124" />
+      <edge source="ConsRS" target="JEPizano" id="125" />
+      <edge source="ConsRS" target="ContratoTransaccion" id="126" />
+      <edge source="MMaragoni" target="Consol" id="127" />
+      <edge source="MMaragoni" target="C-OG" id="128" />
+      <edge source="MMaragoni" target="CUPanama" id="129" />
+      <edge source="MMaragoni" target="GabrielDumar" id="130" />
+      <edge source="Consol" target="MHarasik" id="131" />
+      <edge source="Consol" target="C-OG" id="132" />
+      <edge source="Consol" target="Otrosi" id="133" />
+      <edge source="AHideaki" target="CUPanama" id="134" />
+      <edge source="AHideaki" target="TTU" id="135" />
+      <edge source="AHideaki" target="OttoB" id="136" />
+      <edge source="C-OG" target="EduardoZambrano" id="137" />
+      <edge source="C-OG" target="FedeGaviria" id="138">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="C-OG" target="AIdeaki" id="139" />
+      <edge source="C-OG" target="OttoB" id="140" />
+      <edge source="C-OG" target="TTU" id="141" />
+      <edge source="C-OG" target="SocRS" id="142" />
+      <edge source="C-OG" target="OtroSi" id="143" />
+      <edge source="C-OG" target="RS-SII" id="144" />
+      <edge source="C-OG" target="BernardoNElias" id="145" />
+      <edge source="C-OG" target="LosBuldocer" id="146" />
+      <edge source="C-OG" target="Otrosi" id="147" />
+      <edge source="EduardoZambrano" target="CUPanama" id="148" />
+      <edge source="FedeGaviria" target="OttoB" id="149">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="FedeGaviria" target="GabrielDumar" id="150" />
+      <edge source="FedeGaviria" target="TransEqLaSabana" id="151" />
+      <edge source="FedeGaviria" target="AllTechCol" id="152" />
+      <edge source="FedeGaviria" target="InvCoal" id="153" />
+      <edge source="FedeGaviria" target="ProfdeBolsa" id="154" />
+      <edge source="FedeGaviria" target="GustavoATorres" id="155" />
+      <edge source="FedeGaviria" target="SocRS" id="156">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ODB" target="LMameri" id="157" />
+      <edge source="LMameri" target="EduardoBueno" id="158" />
+      <edge source="PresidenciaAUV" target="RSII" id="159" />
+      <edge source="PresidenciaAUV" target="MinTransAUV" id="160" />
+      <edge source="MarioUribe" target="Parapolitica" id="161" />
+      <edge source="Parapolitica" target="OttoB" id="162" />
+      <edge source="OttoB" target="BernardoNElias" id="163" />
+      <edge source="OttoB" target="RS-SII" id="164" />
+      <edge source="OttoB" target="YesidArocha" id="165" />
+      <edge source="OttoB" target="TransEqLaSabana" id="166" />
+      <edge source="OttoB" target="AllTechCol" id="167" />
+      <edge source="OttoB" target="InvCoal" id="168" />
+      <edge source="OttoB" target="ProfdeBolsa" id="169" />
+      <edge source="OttoB" target="GabrielDumar" id="170" />
+      <edge source="Latinvest" target="ContratoTransaccion" id="171" />
+      <edge source="Episol" target="SocRS" id="172" />
+      <edge source="Episol" target="ConsCanoas" id="173" />
+      <edge source="Episol" target="PaolaSolarte" id="174" />
+      <edge source="Episol" target="ContratoTransaccion" id="175" />
+      <edge source="GSolarte" target="CarlosSolarte" id="176" />
+      <edge source="BernardoNElias" target="RS-SII" id="177" />
+      <edge source="BernardoNElias" target="GabrielDumar" id="178" />
+      <edge source="RS-SII" target="SION" id="179" />
+      <edge source="RS-SII" target="CUPanama" id="180" />
+      <edge source="RS-SII" target="GabrielGarciaM" id="181" />
+      <edge source="RS-SII" target="INCO(ANI)" id="182" />
+      <edge source="RS-SII" target="OtroSi" id="183" />
+      <edge source="GabrielDumar" target="SION" id="184" />
+      <edge source="TTU" target="FernandoPardinasPuente" id="185" />
+      <edge source="ProfdeBolsa" target="GustavoATorres" id="186" />
+      <edge source="AlbertoMariño" target="EstudioJuridicoMNALtda" id="187" />
+      <edge source="GabrielGarciaM" target="INCO(ANI)" id="188" />
+      <edge source="GabrielGarciaM" target="LuizBueno" id="189" />
+      <edge source="GabrielGarciaM" target="SocRS" id="190" />
+      <edge source="INCO(ANI)" target="MinTransAUV" id="191" />
+      <edge source="M&amp;MACLtda" target="MHarasik" id="192" />
+      <edge source="M&amp;MACLtda" target="ContratoEstabilidadJuridica" id="193" />
+      <edge source="M&amp;MACLtda" target="OtroSi" id="194" />
+      <edge source="SocRS" target="CSS" id="195" />
+      <edge source="SocRS" target="MariaVictoriaGuiarin" id="196" />
+      <edge source="MODB" target="LJ" id="197" />
+      <edge source="EAAB" target="JEPizano" id="198" />
+      <edge source="EAAB" target="AndresCardona" id="199" />
+      <edge source="EAAB" target="Tunjuelo-Canoas" id="200" />
+      <edge source="Tunjuelo-Canoas" target="ConsCanoas" id="201" />
+      <edge source="EstudioJuridicoMNALtda" target="OtroSi" id="202" />
+      <edge source="OtroSi" target="LosBuldocer" id="203" />
+      <edge source="EstebanMoreno" target="CampanaPresJMSC2010" id="204" />
+      <edge source="EstebanMoreno" target="AndresSanmiguel" id="205" />
+      <edge source="EstebanMoreno" target="DavidPortilla" id="206" />
+      <edge source="CampanaPresJMSC2010" target="DavidPortilla" id="207" />
+      <edge source="CampanaPresJMSC2010" target="DirectorCampanaPresJMSC" id="208" />
+      <edge source="DavidPortilla" target="GisticLogistic" id="209" />
+      <edge source="DirectorCampanaPresJMSC" target="CesarGaviria" id="210" />
+      <edge source="AndresSanmiguel" target="GisticLogistic" id="211" />
+      <edge source="LosBuldocer" target="MBesaile" id="212" />
+      <edge source="LosBuldocer" target="AAshton" id="213" />
+      <edge source="MariaVictoriaGuiarin" target="IFC" id="214" />
+      <edge source="LuisFAndrade" target="Otrosi" id="215" />
+      <edge source="LuisFAndrade" target="Bribe" id="216" />
+      <edge source="Otrosi" target="CONPES" id="217" />
+      <edge source="C-NVLN" target="Valorcon" id="218" />
+      <edge source="C-NVLN" target="MNA" id="219" />
+      <edge source="C-NVLN" target="NCMH" id="220" />
+      <edge source="C-NVLN" target="NHMAbogados" id="221" />
+      <edge source="C-NVLN" target="BancoAgrario" id="222" />
+      <edge source="C-NVLN" target="BancodeOccidente" id="223" />
+      <edge source="MNA" target="NCMH" id="224" />
+    </edges>
+  </graph>
+</gexf>

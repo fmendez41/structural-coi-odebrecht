@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-05-01">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="OttoB" label="OttoB" />
+      <node id="PuntoFA" label="PuntoFA" />
+      <node id="TexfabHK" label="TexfabHK" />
+      <node id="Yunan" label="Yunan" />
+      <node id="CTAsiaHK" label="CTAsiaHK" />
+      <node id="CoasHelicorpInc" label="CoasHelicorpInc" />
+      <node id="HelicontinenteSAColombia" label="HelicontinenteSAColombia" />
+      <node id="KingdomTextileLtda" label="KingdomTextileLtda" />
+      <node id="IntercorpLogisticLtda" label="IntercorpLogisticLtda" />
+      <node id="LurionTradingINC" label="LurionTradingINC" />
+      <node id="PacificInfrastructure" label="PacificInfrastructure" />
+      <node id="OilAndGasLogistics" label="OilAndGasLogistics" />
+      <node id="Eleuberto Martorelli" label="Eleuberto Martorelli" />
+      <node id="GabrielGarciaM" label="GabrielGarciaM" />
+      <node id="EnriqueAssadGhisaysManzur" label="EnriqueAssadGhisaysManzur" />
+      <node id="EduardoAssadGhisaysManzur" label="EduardoAssadGhisaysManzur" />
+      <node id="GustavoUrregoContreras" label="GustavoUrregoContreras" />
+      <node id="CésarHernández" label="CésarHernández" />
+      <node id="RS-SII" label="RS-SII" />
+      <node id="Parapolitica" label="Parapolitica" />
+      <node id="BernardoNElias" label="BernardoNElias" />
+      <node id="C-OG" label="C-OG" />
+      <node id="YesidArocha" label="YesidArocha" />
+      <node id="TransEqLaSabana" label="TransEqLaSabana" />
+      <node id="AllTechCol" label="AllTechCol" />
+      <node id="InvCoal" label="InvCoal" />
+      <node id="ProfdeBolsa" label="ProfdeBolsa" />
+      <node id="FedeGaviria" label="FedeGaviria" />
+      <node id="AHideaki" label="AHideaki" />
+      <node id="ConstODB" label="ConstODB" />
+      <node id="GabrielDumar" label="GabrielDumar" />
+      <node id="Bribe" label="Bribe" />
+    </nodes>
+    <edges>
+      <edge source="OttoB" target="PuntoFA" id="0" />
+      <edge source="OttoB" target="TexfabHK" id="1" />
+      <edge source="OttoB" target="Yunan" id="2" />
+      <edge source="OttoB" target="CTAsiaHK" id="3" />
+      <edge source="OttoB" target="CoasHelicorpInc" id="4" />
+      <edge source="OttoB" target="HelicontinenteSAColombia" id="5" />
+      <edge source="OttoB" target="KingdomTextileLtda" id="6" />
+      <edge source="OttoB" target="IntercorpLogisticLtda" id="7" />
+      <edge source="OttoB" target="LurionTradingINC" id="8" />
+      <edge source="OttoB" target="PacificInfrastructure" id="9" />
+      <edge source="OttoB" target="OilAndGasLogistics" id="10" />
+      <edge source="OttoB" target="Eleuberto Martorelli" id="11" />
+      <edge source="OttoB" target="GabrielGarciaM" id="12" />
+      <edge source="OttoB" target="EnriqueAssadGhisaysManzur" id="13" />
+      <edge source="OttoB" target="EduardoAssadGhisaysManzur" id="14" />
+      <edge source="OttoB" target="GustavoUrregoContreras" id="15" />
+      <edge source="OttoB" target="CésarHernández" id="16" />
+      <edge source="OttoB" target="RS-SII" id="17" />
+      <edge source="OttoB" target="Parapolitica" id="18" />
+      <edge source="OttoB" target="BernardoNElias" id="19" />
+      <edge source="OttoB" target="C-OG" id="20" />
+      <edge source="OttoB" target="YesidArocha" id="21" />
+      <edge source="OttoB" target="TransEqLaSabana" id="22" />
+      <edge source="OttoB" target="AllTechCol" id="23" />
+      <edge source="OttoB" target="InvCoal" id="24" />
+      <edge source="OttoB" target="ProfdeBolsa" id="25" />
+      <edge source="OttoB" target="FedeGaviria" id="26" />
+      <edge source="OttoB" target="AHideaki" id="27" />
+      <edge source="OttoB" target="ConstODB" id="28" />
+      <edge source="OttoB" target="GabrielDumar" id="29" />
+      <edge source="OttoB" target="Bribe" id="30" />
+    </edges>
+  </graph>
+</gexf>
