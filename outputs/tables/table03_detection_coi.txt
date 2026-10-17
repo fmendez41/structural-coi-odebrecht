@@ -1,0 +1,31 @@
+
+=== pre-2010 ===
+  1. GabrielGarciaM         COI= 3.46  (E_pub=3, E_priv=4)
+  2. JEliasMelo             COI= 1.73  (E_pub=1, E_priv=3)
+  3. OttoB                  COI= 1.41  (E_pub=1, E_priv=2)
+  4. LuizBueno              COI= 1.41  (E_pub=1, E_priv=2)
+  5. FedeGaviria            COI= 1.41  (E_pub=1, E_priv=2)
+  …9. NHMN COI=0.00 (E_pub=0, E_priv=6)
+
+=== 2010-14 ===
+  1. OttoB                  COI= 4.47  (E_pub=2, E_priv=10)
+  2. NHMN                   COI= 3.16  (E_pub=1, E_priv=10)  ←
+  3. GabrielGarciaM         COI= 2.83  (E_pub=2, E_priv=4)
+  4. JEliasMelo             COI= 1.73  (E_pub=1, E_priv=3)
+  5. FedeGaviria            COI= 1.73  (E_pub=1, E_priv=3)
+
+=== 2014-16 v2 ===
+  1. NHMN                   COI= 6.00  (E_pub=4, E_priv=9)  ←
+  2. GabrielGarciaM         COI= 2.83  (E_pub=2, E_priv=4)
+  3. JEliasMelo             COI= 2.00  (E_pub=1, E_priv=4)
+  4. JEPizano               COI= 2.00  (E_pub=1, E_priv=4)
+  5. OttoB                  COI= 1.73  (E_pub=1, E_priv=3)
+  margin over runner-up: 2.1x
+
+=== 2016-19+ v2 ===
+  1. NHMN                   COI= 7.35  (E_pub=6, E_priv=9)  ←
+  2. GabrielGarciaM         COI= 3.46  (E_pub=3, E_priv=4)
+  3. OttoB                  COI= 3.00  (E_pub=3, E_priv=3)
+  4. EderPFerracuti         COI= 3.00  (E_pub=3, E_priv=3)
+  5. JEliasMelo             COI= 2.83  (E_pub=2, E_priv=4)
+  margin over runner-up: 2.1x

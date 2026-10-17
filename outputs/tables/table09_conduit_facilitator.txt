@@ -1,0 +1,20 @@
+
+=== pre-2010 ===
+  OttoB   COI= 1.41 (pub=1,priv=2)  bc pct= 87.7 (rank 2/35)  inter-bloc share=  8.9%  knockout Δdist=+0.4%
+  NHMN    COI= 0.00 (pub=0,priv=6)  bc pct= 83.6 (rank 3/35)  inter-bloc share=  9.7%  knockout Δdist=+0.8%
+
+=== 2010-14 ===
+  OttoB   COI= 4.47 (pub=2,priv=10)  bc pct=100.0 (rank 1/70)  inter-bloc share= 10.4%  knockout Δdist=+0.1%
+  NHMN    COI= 3.16 (pub=1,priv=10)  bc pct= 93.1 (rank 3/70)  inter-bloc share= 26.2%  knockout Δdist=+4.3%
+
+=== 2014-16 v2 ===
+  OttoB   COI= 1.73 (pub=1,priv=3)  bc pct= 87.2 (rank 3/49)  inter-bloc share=  4.8%  knockout Δdist=+0.0%
+  NHMN    COI= 6.00 (pub=4,priv=9)  bc pct= 99.1 (rank 1/49)  inter-bloc share= 38.4%  knockout Δdist=+13.3%
+
+=== 2016-19+ v2 ===
+  OttoB   COI= 3.00 (pub=3,priv=3)  bc pct= 90.5 (rank 3/56)  inter-bloc share=  4.5%  knockout Δdist=+0.4%
+  NHMN    COI= 7.35 (pub=6,priv=9)  bc pct= 98.3 (rank 1/56)  inter-bloc share= 31.3%  knockout Δdist=+9.0%
+
+OttoB neighbors in 2010-14 by bloc: {'Politicos': 1, 'Offshore': 11, 'Odebrecht': 4, 'Estado': 1, 'Intermediarios': 9, 'Proyecto': 3, 'Contexto': 2}
+
+✓ .\outputs\figures\fig12_conduit_facilitator.png

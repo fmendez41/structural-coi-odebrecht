@@ -1,0 +1,28 @@
+
+=== pre-2010 ===
+  NHMN               9.7% of Aval+ODB → Estado shortest paths
+  OttoB              8.9% of Aval+ODB → Estado shortest paths
+  GabrielGarciaM    53.2% of Aval+ODB → Estado shortest paths
+  FGN                0.0% of Aval+ODB → Estado shortest paths
+  RS-SII            35.6% of Aval+ODB → Estado shortest paths
+
+=== 2010-14 ===
+  NHMN              26.2% of Aval+ODB → Estado shortest paths
+  OttoB             10.4% of Aval+ODB → Estado shortest paths
+  GabrielGarciaM    23.6% of Aval+ODB → Estado shortest paths
+  FGN                0.0% of Aval+ODB → Estado shortest paths
+  RS-SII            21.4% of Aval+ODB → Estado shortest paths
+
+=== 2014-16 v2 ===
+  NHMN              38.4% of Aval+ODB → Estado shortest paths
+  OttoB              4.8% of Aval+ODB → Estado shortest paths
+  GabrielGarciaM    10.6% of Aval+ODB → Estado shortest paths
+  FGN                0.0% of Aval+ODB → Estado shortest paths
+  RS-SII            18.9% of Aval+ODB → Estado shortest paths
+
+=== 2016-19+ v2 ===
+  NHMN              31.3% of Aval+ODB → Estado shortest paths
+  OttoB              4.5% of Aval+ODB → Estado shortest paths
+  GabrielGarciaM    11.0% of Aval+ODB → Estado shortest paths
+  FGN               31.4% of Aval+ODB → Estado shortest paths
+  RS-SII            14.0% of Aval+ODB → Estado shortest paths

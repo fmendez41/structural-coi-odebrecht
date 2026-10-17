@@ -1,0 +1,10 @@
+Gch3,Gch4,metrica,v1,v2,valor
+,,P1 Gch3,"pct=98.1, part=0.747, k=15","pct=99.1, part=0.720, k=17",
+,,P1 Gch4,"pct=98.2, part=0.768, k=17","pct=98.3, part=0.655, k=20",
+,,COI Gch3,"COI=5.20 (pub=3,priv=9), rank 1","COI=6.00 (pub=4,priv=9), rank 1",
+,,COI Gch4,"COI=6.71 (pub=5,priv=9), rank 1","COI=7.35 (pub=6,priv=9), rank 1",
+,,P2 Gch3 Δdist NHMN,"solo +10.03%, ego +11.68%","solo +11.44%, ego +13.12%",
+,,P2b Gch4 grupo NHMN+firmas+FGN,"dep 35.0%, inst 53.6%","dep 37.8%, inst 56.2%",
+v1: 0.0202 rank 1 (líder: NHMN) | v2: 0.0224 rank 1 (líder: NHMN),v1: 0.0170 rank 2 (líder: FGN) | v2: 0.0187 rank 2 (líder: FGN),P3 rank NHMN,,,
+,,P4 J_pub split (v1),,,"total=0.333, trans=0.4, const=0.0"
+,,P4 J_pub split (v2),,,"total=0.429, trans=0.4, const=0.5"

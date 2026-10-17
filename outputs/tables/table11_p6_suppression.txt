@@ -1,0 +1,15 @@
+Unconnected dyads: 6387
+
+Dyad                       rank      RA  common nbrs
+FGN—Odebrecht                 2   1.332            9
+FGN—CSJ                       4   0.873            7
+FGN—CFC                       8   0.784            4
+FGN—Episol                   35   0.500            1
+FGN—JEPizano                125   0.268            2
+FGN—LCSA                   1048   0.050            1
+FGN—LCSG                   3389   0.000            0
+OttoB—Odebrecht               1   2.046            8
+
+FGN–LCSG distance: 3
+
+✓ .\outputs\figures\fig10_suppression_Gch4.png

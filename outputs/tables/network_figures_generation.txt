@@ -1,0 +1,19 @@
+Main-text network figures (selective labels):
+  ✓ fig01_network_Gch1.png
+  ✓ fig02_network_Gch2.png
+  ✓ fig03_network_Gch2OttoB.png
+  ✓ fig04_network_Gch3.png
+  ✓ fig05_network_Gch4.png
+
+Ego views:
+  ✓ fig04a_ego_ODB_Gch3.png
+  ✓ fig04b_ego_NHMN_Gch3.png
+  ✓ fig05a_ego_NHMN_Gch4.png
+  ✓ fig05b_ego_ODB_Gch4.png
+
+Full-label appendix plots (A1–A5):
+  ✓ figA01_full_Gch1.png
+  ✓ figA02_full_Gch2.png
+  ✓ figA03_full_Gch2OttoB.png
+  ✓ figA04_full_Gch3.png
+  ✓ figA05_full_Gch4.png

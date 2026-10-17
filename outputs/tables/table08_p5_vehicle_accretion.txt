@@ -1,0 +1,14 @@
+Entity                        pre-2010       2010-14    2014-16 v2   2016-19+ v2
+M&MACLtda                            3             6             5             5
+MNA                                  1             1             4             4
+EstudioJuridicoMNALtda               —             5             5             5
+NHMAbogados                          —             —             1             1
+NHMN                                 6            13            17            20
+
+Unified clientele of the firms (union of neighborhoods):
+  pre-2010       |clientele|= 2
+  2010-14        |clientele|= 7  retention=2/2  Jaccard=0.400
+  2014-16 v2     |clientele|= 9  retention=7/7  Jaccard=0.875
+  2016-19+ v2    |clientele|= 9  retention=9/9  Jaccard=1.000
+
+✓ .\outputs\figures\fig11_vehicle_accretion.png
