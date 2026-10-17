@@ -1,0 +1,1091 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-07-11">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="esfera" type="string" />
+      <attribute id="1" title="bloque" type="string" />
+      <attribute id="2" title="tipo" type="string" />
+    </attributes>
+    <nodes>
+      <node id="GNC" label="GNC">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="CSJ" label="CSJ">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="Congreso" label="Congreso">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="FGN" label="FGN">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="ANI" label="ANI">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="Presidencia" label="Presidencia">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="MinCo" label="MinCo">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="Cormag" label="Cormag">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="INCO" label="INCO">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="IDM" label="IDM">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="CampanaPres2018" label="CampanaPres2018">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="vehiculo" />
+        </attvalues>
+      </node>
+      <node id="PresidenciaIDM" label="PresidenciaIDM">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="LCSA" label="LCSA">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="GAVAL" label="GAVAL">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="CFC" label="CFC">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="JEliasMelo" label="JEliasMelo">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="NHMN" label="NHMN">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="NHMN" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="LCSG" label="LCSG">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="JGilVillegas" label="JGilVillegas">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="HPalaciosMejia" label="HPalaciosMejia">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="GustavoRamirez" label="GustavoRamirez">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="DiegoSaravia" label="DiegoSaravia">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="Odebrecht" label="Odebrecht">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="ConstODB" label="ConstODB">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="EderPFerracuti" label="EderPFerracuti">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="ConsRS" label="ConsRS">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="MMaragoni" label="MMaragoni">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="Consol" label="Consol">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="AHideaki" label="AHideaki">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="C-OG" label="C-OG">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="objeto" />
+        </attvalues>
+      </node>
+      <node id="EduardoZambrano" label="EduardoZambrano">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="FedeGaviria" label="FedeGaviria">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="LMameri" label="LMameri">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="PresidenciaAUV" label="PresidenciaAUV">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="RS-SII" label="RS-SII">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="objeto" />
+        </attvalues>
+      </node>
+      <node id="MarioUribe" label="MarioUribe">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="Parapolitica" label="Parapolitica">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Contexto" />
+          <attvalue for="2" value="evento" />
+        </attvalues>
+      </node>
+      <node id="OttoB" label="OttoB">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="CSS" label="CSS">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Solarte" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="Latinvest" label="Latinvest">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="Episol" label="Episol">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="GSolarte" label="GSolarte">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Solarte" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="CarlosSolarte" label="CarlosSolarte">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Solarte" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="BernardoNElias" label="BernardoNElias">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="YesidArocha" label="YesidArocha">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="CUPanama" label="CUPanama">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Offshore" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="GabrielDumar" label="GabrielDumar">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="SION" label="SION">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="TTU" label="TTU">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="FernandoPardinasPuente" label="FernandoPardinasPuente">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="TransEqLaSabana" label="TransEqLaSabana">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="AllTechCol" label="AllTechCol">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="InvCoal" label="InvCoal">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="ProfdeBolsa" label="ProfdeBolsa">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="AlbertoMariño" label="AlbertoMariño">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="GabrielGarciaM" label="GabrielGarciaM">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="MinTransAUV" label="MinTransAUV">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="LuizBueno" label="LuizBueno">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="MiguelElias" label="MiguelElias">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="JuanSeCorrea" label="JuanSeCorrea">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="GustavoATorres" label="GustavoATorres">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="M&amp;MACLtda" label="M&amp;MACLtda">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="NHMN" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="MHarasik" label="MHarasik">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="SocRS" label="SocRS">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="MODB" label="MODB">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="EAAB" label="EAAB">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="JEPizano" label="JEPizano">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="AndresCardona" label="AndresCardona">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="Tunjuelo-Canoas" label="Tunjuelo-Canoas">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="objeto" />
+        </attvalues>
+      </node>
+      <node id="ConsCanoas" label="ConsCanoas">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="PaolaSolarte" label="PaolaSolarte">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Solarte" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="ContratoEstabilidadJuridica" label="ContratoEstabilidadJuridica">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="objeto" />
+        </attvalues>
+      </node>
+      <node id="EstudioJuridicoMNALtda" label="EstudioJuridicoMNALtda">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="NHMN" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="OtroSi" label="OtroSi">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="objeto" />
+        </attvalues>
+      </node>
+      <node id="CeciliaAlvarezCorrea" label="CeciliaAlvarezCorrea">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="ConsejoEstado" label="ConsejoEstado">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="EstebanMoreno" label="EstebanMoreno">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="CampanaPres2010" label="CampanaPres2010">
+        <attvalues>
+          <attvalue for="0" value="instrumental" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="vehiculo" />
+        </attvalues>
+      </node>
+      <node id="DavidPortilla" label="DavidPortilla">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="RobertoPrieto" label="RobertoPrieto">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="CesarGaviria" label="CesarGaviria">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="AndresSanmiguel" label="AndresSanmiguel">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="GisticLogistic" label="GisticLogistic">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Intermediarios" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="JMSC" label="JMSC">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="LosBuldocer" label="LosBuldocer">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="evento" />
+        </attvalues>
+      </node>
+      <node id="PlinioOlano" label="PlinioOlano">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="MiguelPenaloza" label="MiguelPenaloza">
+        <attvalues>
+          <attvalue for="0" value="dual" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="MBesaile" label="MBesaile">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="AAshton" label="AAshton">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Politicos" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="MariaVictoriaGuiarin" label="MariaVictoriaGuiarin">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="IFC" label="IFC">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Contexto" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="LuisFAndrade" label="LuisFAndrade">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="C-NVLN" label="C-NVLN">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="LJ" label="LJ">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Contexto" />
+          <attvalue for="2" value="evento" />
+        </attvalues>
+      </node>
+      <node id="Valorcon" label="Valorcon">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="MNA" label="MNA">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="NHMN" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="NCMH" label="NCMH">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="NHMN" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="NHMAbogados" label="NHMAbogados">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="NHMN" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="BancoAgrario" label="BancoAgrario">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="BancodeOccidente" label="BancodeOccidente">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Aval" />
+          <attvalue for="2" value="empresa" />
+        </attvalues>
+      </node>
+      <node id="ContratoTransaccion" label="ContratoTransaccion">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Proyecto" />
+          <attvalue for="2" value="objeto" />
+        </attvalues>
+      </node>
+      <node id="LeonidasBustos" label="LeonidasBustos">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="Bribe" label="Bribe">
+        <attvalues>
+          <attvalue for="0" value="objeto" />
+          <attvalue for="1" value="Contexto" />
+          <attvalue for="2" value="evento" />
+        </attvalues>
+      </node>
+      <node id="GinaParody" label="GinaParody">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="CONPES" label="CONPES">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="LuisGMoreno" label="LuisGMoreno">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="DOJ" label="DOJ">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="DanielHernandezFiscal" label="DanielHernandezFiscal">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="AlvaroBentancurFiscal" label="AlvaroBentancurFiscal">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="LDaRochaS" label="LDaRochaS">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Odebrecht" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="JManuelBarraza" label="JManuelBarraza">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="ASanguinetti" label="ASanguinetti">
+        <attvalues>
+          <attvalue for="0" value="privado" />
+          <attvalue for="1" value="Offshore" />
+          <attvalue for="2" value="persona" />
+        </attvalues>
+      </node>
+      <node id="FGNAdhoc" label="FGNAdhoc">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+      <node id="PGN" label="PGN">
+        <attvalues>
+          <attvalue for="0" value="publico" />
+          <attvalue for="1" value="Estado" />
+          <attvalue for="2" value="institucion" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="GNC" target="CSJ" id="0" />
+      <edge source="GNC" target="Congreso" id="1" />
+      <edge source="GNC" target="FGN" id="2" />
+      <edge source="GNC" target="ANI" id="3" />
+      <edge source="GNC" target="Presidencia" id="4" />
+      <edge source="GNC" target="MinCo" id="5" />
+      <edge source="GNC" target="Cormag" id="6" />
+      <edge source="GNC" target="LJ" id="7" />
+      <edge source="CSJ" target="GabrielDumar" id="8" />
+      <edge source="CSJ" target="BernardoNElias" id="9" />
+      <edge source="CSJ" target="LJ" id="10" />
+      <edge source="CSJ" target="OttoB" id="11" />
+      <edge source="CSJ" target="SocRS" id="12" />
+      <edge source="CSJ" target="PlinioOlano" id="13" />
+      <edge source="FGN" target="GustavoATorres" id="14" />
+      <edge source="FGN" target="GabrielDumar" id="15" />
+      <edge source="FGN" target="BernardoNElias" id="16" />
+      <edge source="FGN" target="NHMN" id="17" />
+      <edge source="FGN" target="LuisGMoreno" id="18" />
+      <edge source="FGN" target="LJ" id="19" />
+      <edge source="FGN" target="OttoB" id="20" />
+      <edge source="FGN" target="C-NVLN" id="21" />
+      <edge source="FGN" target="EderPFerracuti" id="22" />
+      <edge source="FGN" target="EduardoZambrano" id="23" />
+      <edge source="FGN" target="FedeGaviria" id="24" />
+      <edge source="FGN" target="MMaragoni" id="25" />
+      <edge source="FGN" target="AHideaki" id="26" />
+      <edge source="FGN" target="DanielHernandezFiscal" id="27" />
+      <edge source="FGN" target="AlvaroBentancurFiscal" id="28" />
+      <edge source="FGN" target="C-OG" id="29" />
+      <edge source="FGN" target="PlinioOlano" id="30" />
+      <edge source="FGN" target="MiguelElias" id="31" />
+      <edge source="FGN" target="MiguelPenaloza" id="32" />
+      <edge source="FGN" target="LosBuldocer" id="33" />
+      <edge source="FGN" target="GabrielGarciaM" id="34" />
+      <edge source="FGN" target="LuizBueno" id="35" />
+      <edge source="FGN" target="JEliasMelo" id="36" />
+      <edge source="FGN" target="LMameri" id="37" />
+      <edge source="FGN" target="LDaRochaS" id="38" />
+      <edge source="FGN" target="JManuelBarraza" id="39" />
+      <edge source="FGN" target="ASanguinetti" id="40" />
+      <edge source="FGN" target="GustavoRamirez" id="41" />
+      <edge source="FGN" target="FGNAdhoc" id="42" />
+      <edge source="FGN" target="RS-SII" id="43" />
+      <edge source="FGN" target="AndresCardona" id="44" />
+      <edge source="FGN" target="PaolaSolarte" id="45" />
+      <edge source="ANI" target="INCO" id="46" />
+      <edge source="ANI" target="JuanSeCorrea" id="47" />
+      <edge source="ANI" target="LuisFAndrade" id="48" />
+      <edge source="Presidencia" target="IDM" id="49" />
+      <edge source="Presidencia" target="GabrielGarciaM" id="50" />
+      <edge source="Presidencia" target="CampanaPres2010" id="51" />
+      <edge source="MinCo" target="NHMN" id="52" />
+      <edge source="MinCo" target="ContratoEstabilidadJuridica" id="53" />
+      <edge source="Cormag" target="C-NVLN" id="54" />
+      <edge source="INCO" target="EstudioJuridicoMNALtda" id="55" />
+      <edge source="INCO" target="RS-SII" id="56" />
+      <edge source="INCO" target="GabrielGarciaM" id="57" />
+      <edge source="INCO" target="MinTransAUV" id="58" />
+      <edge source="IDM" target="CampanaPres2018" id="59" />
+      <edge source="CampanaPres2018" target="PresidenciaIDM" id="60" />
+      <edge source="LCSA" target="GAVAL" id="61" />
+      <edge source="LCSA" target="LCSG" id="62" />
+      <edge source="LCSA" target="NHMN" id="63" />
+      <edge source="GAVAL" target="CFC" id="64" />
+      <edge source="GAVAL" target="NHMN" id="65" />
+      <edge source="GAVAL" target="LCSG" id="66" />
+      <edge source="GAVAL" target="DiegoSaravia" id="67" />
+      <edge source="GAVAL" target="BancodeOccidente" id="68" />
+      <edge source="CFC" target="JEliasMelo" id="69" />
+      <edge source="CFC" target="JGilVillegas" id="70" />
+      <edge source="CFC" target="HPalaciosMejia" id="71" />
+      <edge source="CFC" target="GustavoRamirez" id="72" />
+      <edge source="CFC" target="ConsRS" id="73" />
+      <edge source="CFC" target="Episol" id="74" />
+      <edge source="CFC" target="NHMN" id="75" />
+      <edge source="CFC" target="SocRS" id="76" />
+      <edge source="CFC" target="M&amp;MACLtda" id="77" />
+      <edge source="CFC" target="C-NVLN" id="78" />
+      <edge source="CFC" target="JEPizano" id="79" />
+      <edge source="JEliasMelo" target="GabrielGarciaM" id="80" />
+      <edge source="JEliasMelo" target="LuizBueno" id="81" />
+      <edge source="JEliasMelo" target="LMameri" id="82" />
+      <edge source="JEliasMelo" target="JEPizano" id="83" />
+      <edge source="JEliasMelo" target="LJ" id="84" />
+      <edge source="NHMN" target="SocRS" id="85" />
+      <edge source="NHMN" target="MHarasik" id="86" />
+      <edge source="NHMN" target="JGilVillegas" id="87" />
+      <edge source="NHMN" target="EstudioJuridicoMNALtda" id="88" />
+      <edge source="NHMN" target="AlbertoMariño" id="89" />
+      <edge source="NHMN" target="C-OG" id="90" />
+      <edge source="NHMN" target="OtroSi" id="91" />
+      <edge source="NHMN" target="MNA" id="92" />
+      <edge source="NHMN" target="ContratoTransaccion" id="93" />
+      <edge source="NHMN" target="CONPES" id="94" />
+      <edge source="NHMN" target="DanielHernandezFiscal" id="95" />
+      <edge source="NHMN" target="AlvaroBentancurFiscal" id="96" />
+      <edge source="HPalaciosMejia" target="RS-SII" id="97" />
+      <edge source="DiegoSaravia" target="MariaVictoriaGuiarin" id="98" />
+      <edge source="Odebrecht" target="ConstODB" id="99" />
+      <edge source="Odebrecht" target="EderPFerracuti" id="100" />
+      <edge source="Odebrecht" target="MMaragoni" id="101" />
+      <edge source="Odebrecht" target="ConsRS" id="102" />
+      <edge source="Odebrecht" target="YesidArocha" id="103" />
+      <edge source="Odebrecht" target="CUPanama" id="104" />
+      <edge source="Odebrecht" target="SION" id="105" />
+      <edge source="Odebrecht" target="TTU" id="106" />
+      <edge source="Odebrecht" target="TransEqLaSabana" id="107" />
+      <edge source="Odebrecht" target="AllTechCol" id="108" />
+      <edge source="Odebrecht" target="InvCoal" id="109" />
+      <edge source="Odebrecht" target="ProfdeBolsa" id="110" />
+      <edge source="Odebrecht" target="LuizBueno" id="111" />
+      <edge source="Odebrecht" target="GabrielGarciaM" id="112" />
+      <edge source="Odebrecht" target="RS-SII" id="113" />
+      <edge source="Odebrecht" target="ConsCanoas" id="114" />
+      <edge source="Odebrecht" target="BernardoNElias" id="115" />
+      <edge source="Odebrecht" target="AndresSanmiguel" id="116" />
+      <edge source="Odebrecht" target="LosBuldocer" id="117" />
+      <edge source="Odebrecht" target="C-NVLN" id="118" />
+      <edge source="Odebrecht" target="ContratoTransaccion" id="119" />
+      <edge source="Odebrecht" target="LMameri" id="120" />
+      <edge source="ConstODB" target="AHideaki" id="121" />
+      <edge source="ConstODB" target="ConsRS" id="122" />
+      <edge source="ConstODB" target="SocRS" id="123" />
+      <edge source="ConstODB" target="MODB" id="124" />
+      <edge source="ConstODB" target="OttoB" id="125" />
+      <edge source="ConstODB" target="C-NVLN" id="126" />
+      <edge source="ConstODB" target="MNA" id="127" />
+      <edge source="ConstODB" target="NCMH" id="128" />
+      <edge source="ConstODB" target="ContratoTransaccion" id="129" />
+      <edge source="EderPFerracuti" target="ConsRS" id="130" />
+      <edge source="EderPFerracuti" target="C-OG" id="131" />
+      <edge source="EderPFerracuti" target="JEPizano" id="132" />
+      <edge source="EderPFerracuti" target="LJ" id="133" />
+      <edge source="EderPFerracuti" target="DanielHernandezFiscal" id="134" />
+      <edge source="EderPFerracuti" target="FGNAdhoc" id="135" />
+      <edge source="ConsRS" target="CSS" id="136" />
+      <edge source="ConsRS" target="Latinvest" id="137" />
+      <edge source="ConsRS" target="Episol" id="138" />
+      <edge source="ConsRS" target="GSolarte" id="139" />
+      <edge source="ConsRS" target="AlbertoMariño" id="140" />
+      <edge source="ConsRS" target="RS-SII" id="141" />
+      <edge source="ConsRS" target="GustavoATorres" id="142" />
+      <edge source="ConsRS" target="SION" id="143" />
+      <edge source="ConsRS" target="M&amp;MACLtda" id="144" />
+      <edge source="ConsRS" target="ContratoEstabilidadJuridica" id="145" />
+      <edge source="ConsRS" target="EstudioJuridicoMNALtda" id="146" />
+      <edge source="ConsRS" target="LosBuldocer" id="147" />
+      <edge source="ConsRS" target="JEPizano" id="148" />
+      <edge source="ConsRS" target="ContratoTransaccion" id="149" />
+      <edge source="MMaragoni" target="Consol" id="150" />
+      <edge source="MMaragoni" target="C-OG" id="151" />
+      <edge source="MMaragoni" target="CUPanama" id="152" />
+      <edge source="MMaragoni" target="GabrielDumar" id="153" />
+      <edge source="MMaragoni" target="LJ" id="154" />
+      <edge source="MMaragoni" target="DanielHernandezFiscal" id="155" />
+      <edge source="MMaragoni" target="FGNAdhoc" id="156" />
+      <edge source="Consol" target="MHarasik" id="157" />
+      <edge source="Consol" target="C-OG" id="158" />
+      <edge source="Consol" target="OtroSi" id="159" />
+      <edge source="Consol" target="LJ" id="160" />
+      <edge source="Consol" target="Bribe" id="161" />
+      <edge source="AHideaki" target="CUPanama" id="162" />
+      <edge source="AHideaki" target="TTU" id="163" />
+      <edge source="AHideaki" target="OttoB" id="164" />
+      <edge source="AHideaki" target="LJ" id="165" />
+      <edge source="AHideaki" target="FGNAdhoc" id="166" />
+      <edge source="AHideaki" target="C-OG" id="167" />
+      <edge source="AHideaki" target="DanielHernandezFiscal" id="168" />
+      <edge source="C-OG" target="EduardoZambrano" id="169" />
+      <edge source="C-OG" target="FedeGaviria" id="170" />
+      <edge source="C-OG" target="OttoB" id="171" />
+      <edge source="C-OG" target="TTU" id="172" />
+      <edge source="C-OG" target="SocRS" id="173" />
+      <edge source="C-OG" target="OtroSi" id="174" />
+      <edge source="C-OG" target="CeciliaAlvarezCorrea" id="175" />
+      <edge source="C-OG" target="RS-SII" id="176" />
+      <edge source="C-OG" target="BernardoNElias" id="177" />
+      <edge source="C-OG" target="LosBuldocer" id="178" />
+      <edge source="C-OG" target="LJ" id="179" />
+      <edge source="EduardoZambrano" target="CUPanama" id="180" />
+      <edge source="EduardoZambrano" target="LJ" id="181" />
+      <edge source="FedeGaviria" target="OttoB" id="182" />
+      <edge source="FedeGaviria" target="GabrielDumar" id="183" />
+      <edge source="FedeGaviria" target="TransEqLaSabana" id="184" />
+      <edge source="FedeGaviria" target="AllTechCol" id="185" />
+      <edge source="FedeGaviria" target="InvCoal" id="186" />
+      <edge source="FedeGaviria" target="ProfdeBolsa" id="187" />
+      <edge source="FedeGaviria" target="MiguelElias" id="188" />
+      <edge source="FedeGaviria" target="GustavoATorres" id="189" />
+      <edge source="FedeGaviria" target="SocRS" id="190" />
+      <edge source="FedeGaviria" target="LJ" id="191" />
+      <edge source="PresidenciaAUV" target="RS-SII" id="192" />
+      <edge source="PresidenciaAUV" target="MinTransAUV" id="193" />
+      <edge source="RS-SII" target="OttoB" id="194" />
+      <edge source="RS-SII" target="BernardoNElias" id="195" />
+      <edge source="RS-SII" target="SION" id="196" />
+      <edge source="RS-SII" target="CUPanama" id="197" />
+      <edge source="RS-SII" target="GabrielGarciaM" id="198" />
+      <edge source="RS-SII" target="OtroSi" id="199" />
+      <edge source="RS-SII" target="CeciliaAlvarezCorrea" id="200" />
+      <edge source="MarioUribe" target="Parapolitica" id="201" />
+      <edge source="Parapolitica" target="OttoB" id="202" />
+      <edge source="OttoB" target="BernardoNElias" id="203" />
+      <edge source="OttoB" target="YesidArocha" id="204" />
+      <edge source="OttoB" target="TransEqLaSabana" id="205" />
+      <edge source="OttoB" target="AllTechCol" id="206" />
+      <edge source="OttoB" target="InvCoal" id="207" />
+      <edge source="OttoB" target="ProfdeBolsa" id="208" />
+      <edge source="OttoB" target="GabrielDumar" id="209" />
+      <edge source="OttoB" target="LJ" id="210" />
+      <edge source="CSS" target="SocRS" id="211" />
+      <edge source="Latinvest" target="ContratoTransaccion" id="212" />
+      <edge source="Episol" target="SocRS" id="213" />
+      <edge source="Episol" target="ConsCanoas" id="214" />
+      <edge source="Episol" target="PaolaSolarte" id="215" />
+      <edge source="Episol" target="ContratoTransaccion" id="216" />
+      <edge source="Episol" target="LeonidasBustos" id="217" />
+      <edge source="GSolarte" target="CarlosSolarte" id="218" />
+      <edge source="BernardoNElias" target="GabrielDumar" id="219" />
+      <edge source="BernardoNElias" target="LJ" id="220" />
+      <edge source="GabrielDumar" target="SION" id="221" />
+      <edge source="GabrielDumar" target="LJ" id="222" />
+      <edge source="TTU" target="FernandoPardinasPuente" id="223" />
+      <edge source="ProfdeBolsa" target="GustavoATorres" id="224" />
+      <edge source="AlbertoMariño" target="EstudioJuridicoMNALtda" id="225" />
+      <edge source="GabrielGarciaM" target="LuizBueno" id="226" />
+      <edge source="GabrielGarciaM" target="SocRS" id="227" />
+      <edge source="MiguelElias" target="JuanSeCorrea" id="228" />
+      <edge source="M&amp;MACLtda" target="MHarasik" id="229" />
+      <edge source="M&amp;MACLtda" target="ContratoEstabilidadJuridica" id="230" />
+      <edge source="M&amp;MACLtda" target="OtroSi" id="231" />
+      <edge source="SocRS" target="MariaVictoriaGuiarin" id="232" />
+      <edge source="MODB" target="LJ" id="233" />
+      <edge source="MODB" target="DOJ" id="234" />
+      <edge source="EAAB" target="JEPizano" id="235" />
+      <edge source="EAAB" target="AndresCardona" id="236" />
+      <edge source="EAAB" target="Tunjuelo-Canoas" id="237" />
+      <edge source="JEPizano" target="ContratoTransaccion" id="238" />
+      <edge source="AndresCardona" target="LJ" id="239" />
+      <edge source="Tunjuelo-Canoas" target="ConsCanoas" id="240" />
+      <edge source="ContratoEstabilidadJuridica" target="LJ" id="241" />
+      <edge source="ContratoEstabilidadJuridica" target="Bribe" id="242" />
+      <edge source="EstudioJuridicoMNALtda" target="OtroSi" id="243" />
+      <edge source="OtroSi" target="CeciliaAlvarezCorrea" id="244" />
+      <edge source="OtroSi" target="LosBuldocer" id="245" />
+      <edge source="OtroSi" target="LuisFAndrade" id="246" />
+      <edge source="OtroSi" target="GinaParody" id="247" />
+      <edge source="OtroSi" target="CONPES" id="248" />
+      <edge source="CeciliaAlvarezCorrea" target="ConsejoEstado" id="249" />
+      <edge source="EstebanMoreno" target="CampanaPres2010" id="250" />
+      <edge source="EstebanMoreno" target="AndresSanmiguel" id="251" />
+      <edge source="EstebanMoreno" target="DavidPortilla" id="252" />
+      <edge source="CampanaPres2010" target="DavidPortilla" id="253" />
+      <edge source="CampanaPres2010" target="RobertoPrieto" id="254" />
+      <edge source="CampanaPres2010" target="JMSC" id="255" />
+      <edge source="DavidPortilla" target="GisticLogistic" id="256" />
+      <edge source="RobertoPrieto" target="CesarGaviria" id="257" />
+      <edge source="AndresSanmiguel" target="GisticLogistic" id="258" />
+      <edge source="LosBuldocer" target="PlinioOlano" id="259" />
+      <edge source="LosBuldocer" target="MiguelPenaloza" id="260" />
+      <edge source="LosBuldocer" target="MBesaile" id="261" />
+      <edge source="LosBuldocer" target="AAshton" id="262" />
+      <edge source="LosBuldocer" target="LJ" id="263" />
+      <edge source="MariaVictoriaGuiarin" target="IFC" id="264" />
+      <edge source="LuisFAndrade" target="Bribe" id="265" />
+      <edge source="C-NVLN" target="Valorcon" id="266" />
+      <edge source="C-NVLN" target="MNA" id="267" />
+      <edge source="C-NVLN" target="NCMH" id="268" />
+      <edge source="C-NVLN" target="NHMAbogados" id="269" />
+      <edge source="C-NVLN" target="BancoAgrario" id="270" />
+      <edge source="C-NVLN" target="BancodeOccidente" id="271" />
+      <edge source="LJ" target="DOJ" id="272" />
+      <edge source="MNA" target="NCMH" id="273" />
+      <edge source="BancoAgrario" target="PGN" id="274" />
+      <edge source="GinaParody" target="CONPES" id="275" />
+    </edges>
+  </graph>
+</gexf>
