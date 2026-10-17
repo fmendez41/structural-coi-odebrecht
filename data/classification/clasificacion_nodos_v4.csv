@@ -1,0 +1,158 @@
+node,tipo,esfera,bloque,presencia,persistente_4redes,nota
+AAshton,persona,publico,Politicos,"Gch2,Gch3,Gch4",,"Álvaro Ashton Giraldo, exsenador investigado caso ODB"
+AHideaki,persona,privado,Odebrecht,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Amilton Hideaki Sendai, director ingeniería ODB Colombia, imputado"
+ANI,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,Agencia Nacional de Infraestructura
+ASanguinetti,persona,privado,Offshore,Gch4,,"Andrés Betingo Sanguinetti, banquero BPA Uruguay, lavado ODB, fallecido 2022"
+AUV,persona,publico,Estado,Gch1,,"Álvaro Uribe Vélez, Presidente"
+AlbertoMariño,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,Rep. GAVAL en junta ConsRS
+AllTechCol,empresa,instrumental,Intermediarios,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"All Tech Colombia S.A.S., ruta financiera investigada"
+AlvaroBentancurFiscal,persona,publico,Estado,Gch4,,Fiscal caso ODB
+AndresCardona,persona,dual,Intermediarios,"Gch1,Gch2,Gch3,Gch4",SI,"Contratista, condenado cohecho túnel Tunjuelo-Canoas EAAB/ODB"
+AndresSanmiguel,persona,privado,Intermediarios,"Gch2,Gch3,Gch4",,"Andrés Sanmiguel Castaño, empresario Gistic, vinculado campaña 2014"
+AndresUribeCorrea,persona,privado,Intermediarios,Gch2,,Entorno OttoB
+BancoAgrario,institucion,publico,Estado,"Gch3,Gch4",,Banca pública
+BancodeOccidente,empresa,privado,Aval,"Gch3,Gch4",,Banco del Grupo Aval
+BernardoNElias,persona,publico,Politicos,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Senador Ñoño Elías, condenado por ODB"
+Bribe,evento,objeto,Contexto,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,Nodo-evento soborno
+C-NVLN,empresa,privado,Proyecto,"Gch3,Gch4",,Consorcio Navelena
+C-OG,objeto,objeto,Proyecto,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,Vía Ocaña-Gamarra
+CFC,empresa,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,Corficolombiana
+CONPES,institucion,publico,Estado,"Gch3,Gch4",,Consejo Nacional de Política Económica
+CSJ,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,Corte Suprema de Justicia
+CSS,empresa,privado,Solarte,"Gch1,Gch2,Gch3,Gch4",SI,"CSS Constructores S.A., socio en ConsRS"
+CTAsiaHK,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,"CT Asia HK, China"
+CUPanama,empresa,instrumental,Offshore,"Gch1,Gch2,Gch3,Gch4",SI,"Consultores Unidos Panamá, vehículo lavado Zambrano"
+CampanaPres2010,vehiculo,instrumental,Politicos,"Gch2,Gch3,Gch4",,Campaña Santos 2010
+CampanaPres2014,vehiculo,instrumental,Politicos,"Gch2,Gch3",,Campaña Santos 2014
+CampanaPres2018,vehiculo,instrumental,Politicos,Gch4,,Campaña 2018
+CarlosGilbertoUribeCorrea,persona,privado,Intermediarios,Gch2,,Entorno OttoB
+CarlosSolarte,persona,privado,Solarte,"Gch1,Gch2,Gch3,Gch4",SI,Socio constructor CSS/ConsRS
+CeciliaAlvarezCorrea,persona,publico,Estado,"Gch2,Gch3,Gch4",,MinTransporte/MinComercio Santos
+CesarGaviria,persona,publico,Politicos,"Gch2,Gch3,Gch4",,Expresidente
+CoasHelicorpInc,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,
+Congreso,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,
+CongresoAUV,institucion,publico,Estado,Gch1,,Congreso periodo Uribe
+ConsCanoas,empresa,privado,Proyecto,"Gch1,Gch2,Gch3,Gch4",SI,Consorcio Canoas EAAB/ODB
+ConsRS,empresa,privado,Proyecto,"Gch1,Gch2,Gch3,Gch4",SI,Concesionaria Ruta del Sol S.A.S.
+ConsejoEstado,institucion,publico,Estado,"Gch2,Gch3,Gch4",,
+Consol,empresa,privado,Proyecto,"Gch1,Gch2,Gch3,Gch4",SI,Consorcio constructor RSII
+ConstODB,empresa,privado,Odebrecht,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,Constructora Norberto Odebrecht
+ContratoEstabilidadJuridica,objeto,objeto,Proyecto,"Gch2,Gch3,Gch4",,Contrato Estabilidad Jurídica
+ContratoTransaccion,objeto,objeto,Proyecto,"Gch3,Gch4",,Contrato de Transacción
+Cormag,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,Cormagdalena
+CésarHernández,persona,privado,Intermediarios,"Gch2,Gch2OttoB",,Capturado caso ODB sobornos RSII
+DOJ,institucion,publico,Estado,Gch4,,Dept. Justicia EEUU
+DanielHernandezFiscal,persona,publico,Estado,Gch4,,Fiscal caso ODB
+DavidPortilla,persona,privado,Intermediarios,"Gch2,Gch3,Gch4",,"David Portilla Colunge, empresario/fundador Gistic, procesado"
+DelioJosedeLeonMela,persona,privado,Intermediarios,Gch2,,Entorno OttoB
+DemandaNulidad2019,evento,objeto,Contexto,Gch4_v2,,"Demanda de nulidad electoral contra Acuerdo 871 por falsa motivacion; Dejusticia/CCJ/Cuervo (Uprimny, Newman, Rodriguez, Jimenez, Gallon, Ospina); 11-ene-2019; rechazada por extemporanea"
+DiegoSaravia,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,"Diego Solano Saravia, Episol/CFC, esposo Guarín IFC, COI investigado SIC"
+DiogenesArosema,persona,instrumental,Offshore,Gch2,,Director nominal
+DoraCorreadeUribe,persona,privado,Intermediarios,Gch2,,Entorno OttoB
+EAAB,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,Empresa Acueducto Bogotá
+EderPFerracuti,persona,privado,Odebrecht,"Gch1,Gch2,Gch3,Gch4",SI,"Eder Paolo Ferracuti, rep legal ConsRS, destituido 20 años"
+EduardoAssadGhisaysManzur,persona,privado,Intermediarios,"Gch2,Gch2OttoB",,Lavado Lurion Trading
+EduardoZambrano,persona,privado,Intermediarios,"Gch1,Gch2,Gch3,Gch4",SI,"Eduardo Zambrano, socio Consultores Unidos Col/Panamá, condenado lavado"
+EfrainHenriquez,persona,instrumental,Offshore,Gch2,,Director nominal
+EleubertoMartorelli,persona,privado,Odebrecht,"Gch2,Gch2OttoB",,"Presidente ODB Colombia, imputado"
+EnriqueAssadGhisaysManzur,persona,privado,Intermediarios,"Gch2,Gch2OttoB",,Lavado Lurion Trading
+Episol,empresa,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,Filial CFC en ConsRS
+EstebanMoreno,persona,dual,Intermediarios,"Gch2,Gch3,Gch4",,"Esteban Moreno Pérez, empresario, gerente campaña PL 2014, imputado enriquecimiento ilícito"
+EstudioJuridicoMNALtda,empresa,privado,NHMN,"Gch2,Gch3,Gch4",,"Estudio Juridico MNA Ltda, constituida 16/09/2014 a solicitud de la concesionaria RSII, dias antes de que NHMN entrara al gabinete como superministro; tercera asesoria jul/2015"
+FGN,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,Fiscalía General
+FGNAdhoc,institucion,publico,Estado,Gch4,,Fiscal ad hoc caso ODB
+FedeGaviria,persona,dual,Intermediarios,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Federico Gaviria, lobbista ODB Colombia, condenado"
+FernandoMenendezMontes,persona,instrumental,Offshore,Gch2,,Director nominal
+FernandoPardinasPuente,persona,instrumental,Intermediarios,"Gch1,Gch2,Gch3,Gch4",SI,"Fernando Álvarez Pardiñas, rep legal TTU España, contratos simulados"
+GAVAL,empresa,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,Grupo Aval
+GNC,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,Gobierno Nacional Central
+GSolarte,persona,privado,Solarte,"Gch1,Gch2,Gch3,Gch4",SI,Grupo Solarte
+GabrielDumar,persona,dual,Intermediarios,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Abogado/empresario Córdoba, rep legal SION, condenado lavado, testigo Fiscalía"
+GabrielGarciaM,persona,publico,Estado,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Viceministro Transporte/INCO, receptor soborno USD 6.5M"
+GilbertoUribeEchevarria,persona,privado,Intermediarios,Gch2,,Entorno OttoB
+GinaParody,persona,publico,Estado,"Gch2,Gch3,Gch4",,MinEducación Santos
+GisticLogistic,empresa,privado,Intermediarios,"Gch2,Gch3,Gch4",,"Gistic Soluciones Integrales, empresa Sanmiguel/Portilla, campaña 2014"
+GustavoATorres,persona,privado,Intermediarios,"Gch1,Gch2,Gch3,Gch4",SI,"Gustavo Adolfo Torres Forero, socio Profesionales de Bolsa, condenado"
+GustavoRamirez,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,VP Banca Inversiones CFC; miembro junta directiva ConsRS 2016; sabia del soborno segun Bueno
+GustavoUrregoContreras,persona,privado,Intermediarios,"Gch2,Gch2OttoB",,Capturado caso ODB sobornos RSII
+HPalaciosMejia,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,"Abogado asesor CFC, concepto RSII"
+HelicontinenteSAColombia,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,Panamá
+IDM,persona,publico,Estado,Gch4,,"Iván Duque Márquez, Presidente"
+IFC,institucion,publico,Contexto,"Gch2,Gch3,Gch4",,"International Finance Corp, Banco Mundial"
+INCO,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,Instituto Nacional de Concesiones (luego ANI)
+IntercorpLogisticLtda,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,
+InvCoal,empresa,instrumental,Intermediarios,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Inversiones Coal S.A.S., movimientos dinero Otto Bula"
+JEPizano,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,"Controller RSII, whistleblower, fallecido 2018"
+JEliasMelo,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,"Presidente CFC, condenado cohecho"
+JGilVillegas,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,"Johanna Gil Villegas, rep legal Fiduciaria Corficolombiana; otorgo poder a NHMN ante MinComercio (09/2010)"
+JMSC,persona,publico,Estado,"Gch2,Gch3,Gch4",,"Juan Manuel Santos Calderón, Presidente"
+JManuelBarraza,persona,publico,Estado,Gch4,,"Director Comisión Nacional de Regalías, investigado por Procuraduría"
+JaimeAntonioGraell,persona,instrumental,Offshore,Gch2,,Director nominal Panamá
+JuanSeCorrea,persona,dual,Estado,"Gch1,Gch2,Gch3,Gch4",SI,"Exasesor ANI, enlace ANI-Congreso, destituido 18 años, colaboró con Fiscalía"
+JulioAntonioQuijanoBerbey,persona,instrumental,Offshore,Gch2,,Panama Papers
+JulioAntonioQuijanoUrriola,persona,instrumental,Offshore,Gch2,,Panama Papers
+KatiaJannetteSmithChavez,persona,instrumental,Offshore,Gch2,,Directora nominal
+KingdomTextileLtda,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,
+LCSA,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,Luis Carlos Sarmiento Angulo
+LCSG,persona,privado,Aval,"Gch1,Gch2,Gch3,Gch4",SI,Luis Carlos Sarmiento Gutiérrez
+LDaRochaS,persona,privado,Odebrecht,Gch4,,"Luis Eduardo Da Rocha, alto ejecutivo ODB, condenado"
+LJ,evento,objeto,Contexto,"Gch3,Gch4",,Operación Lava Jato
+LMameri,persona,privado,Odebrecht,"Gch1,Gch2,Gch3,Gch4",SI,"Luiz Antonio Mameri, VP LatAm, condenado"
+Latinvest,empresa,privado,Odebrecht,"Gch1,Gch2,Gch3,Gch4",SI,"Odebrecht Latinvest Colombia, brazo inversión ODB"
+LeonidasBustos,persona,publico,Estado,"Gch2,Gch3,Gch4",,"Magistrado/Presidente CSJ, influencia definitiva en eleccion de NHMN como Fiscal (2016); investigado cartel de la toga; salio del pais 2018"
+LiliaJudithTovardeLeon,persona,privado,Intermediarios,Gch2,,Entorno OttoB
+LosBuldocer,evento,objeto,Politicos,"Gch2,Gch3,Gch4",,Grupo político Ñoño/Besaile
+LuisFAndrade,persona,publico,Estado,"Gch2,Gch3,Gch4",,"Presidente ANI, destituido 18 años"
+LuisGMoreno,persona,publico,Estado,Gch4,,"Fiscal anticorrupcion nombrado por NHMN, vinculado a Bustos; capturado en EEUU 2017 (cartel de la toga); declaro que su nombramiento respondio a influencia externa"
+LuizBueno,persona,privado,Odebrecht,"Gch1,Gch2,Gch3,Gch4",SI,"Luiz Antonio Bueno Jr, director ODB Colombia"
+LurionTradingINC,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,Lavado USD 6.5M García Morales
+M&MACLtda,empresa,privado,NHMN,"Gch1,Gch2,Gch3,Gch4",SI,Martinez & Martinez Abogados Consultores Ltda (const. 2008); elaboro y tramito contrato de estabilidad juridica RSII 2010-2012
+MBesaile,persona,publico,Politicos,"Gch2,Gch3,Gch4",,Senador Musa Besaile
+MHarasik,persona,privado,Odebrecht,"Gch1,Gch2,Gch3,Gch4",SI,"Marko Harasic, rep legal Consol; acepto propuesta M&M y apodero a NHMN para contrato estabilidad juridica (2010)"
+MMaragoni,persona,privado,Odebrecht,"Gch1,Gch2,Gch3,Gch4",SI,"Marcio Marangoni, director contratos Consol/RSII, imputado"
+MNA,empresa,privado,NHMN,"Gch1,Gch2,Gch3,Gch4",SI,MNA Martinez Abogados Ltda (const. 2009); concepto legal 05/09/2012 sobre adicion Ocana-Gamarra
+MODB,persona,privado,Odebrecht,"Gch1,Gch2,Gch3,Gch4",SI,"Marcelo Odebrecht, presidente, condenado"
+MariaVictoriaGuiarin,persona,privado,Aval,"Gch2,Gch3,Gch4",,"María Victoria Guarín, funcionaria IFC esposa Solano Saravia, COI"
+MarioUribe,persona,publico,Politicos,"Gch1,Gch2,Gch3,Gch4",SI,Excongresista
+MiguelElias,persona,publico,Politicos,"Gch1,Gch2,Gch3,Gch4",SI,Familiar/entorno Ñoño Elías
+MiguelPenaloza,persona,dual,Estado,"Gch2,Gch3,Gch4",,"Consejero Presidencial Regiones/MinTransporte 2012, investigado sobornos RSII y C-OG"
+MinCo,institucion,publico,Estado,"Gch1,Gch3,Gch4",,MinComercio
+MinCoJMSC,institucion,publico,Estado,"Gch2,Gch3",,MinComercio periodo Santos
+MinEdJMSC,institucion,publico,Estado,"Gch2,Gch3",,MinEducación periodo Santos
+MinTansJMSC,institucion,publico,Estado,"Gch2,Gch3",,MinTransporte periodo Santos
+MinTransAUV,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,MinTransporte periodo Uribe
+ModestoHenriquez,persona,instrumental,Offshore,Gch2,,Director nominal
+NCMH,persona,privado,NHMN,"Gch3,Gch4",,"Néstor Camilo Martínez Hernández, hijo de NHMN"
+NHMAbogados,empresa,privado,NHMN,"Gch3,Gch4",,"NHM Abogados, firma de NHMN y familia; asesoro a Navelena/CFC 2015-2016 en concepto para financiacion"
+NHMN,persona,dual,NHMN,"Gch1,Gch2,Gch3,Gch4",SI,"Néstor Humberto Martínez, abogado GAVAL→Fiscal General"
+NereidaEstherMorenodeSerrano,persona,instrumental,Offshore,Gch2,,Directora nominal
+Odebrecht,empresa,privado,Odebrecht,"Gch1,Gch2,Gch3,Gch4",SI,Multinacional brasileña
+OilAndGasLogistics,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,Hermanos Ghisays Manzur
+OtroSi,objeto,objeto,Proyecto,"Gch2,Gch3,Gch4",,Otrosí C-OG al contrato RSII
+OttoB,persona,dual,Politicos,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Exsenador, intermediario sobornos C-OG, condenado"
+PGN,institucion,publico,Estado,Gch4,,Procuraduría General
+PacificInfrastructure,empresa,privado,Offshore,"Gch2,Gch2OttoB",,Unidad Pacific Rubiales
+PaolaSolarte,persona,privado,Solarte,"Gch1,Gch2,Gch3,Gch4",SI,Familia Solarte
+Parapolitica,evento,objeto,Contexto,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,Contexto judicial
+PlinioOlano,persona,publico,Politicos,"Gch1,Gch2,Gch3,Gch4",SI,"Exsenador, investigado por ODB"
+Presidencia,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,
+PresidenciaAUV,institucion,publico,Estado,"Gch1,Gch2,Gch3,Gch4",SI,Presidencia periodo Uribe
+PresidenciaIDM,institucion,publico,Estado,Gch4,,Presidencia periodo Duque
+PresidenciaJMSC,institucion,publico,Estado,"Gch2,Gch3",,Presidencia periodo Santos
+ProfdeBolsa,empresa,instrumental,Intermediarios,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Profesionales de Bolsa, firma Torres, contrato ficticio banca inversión"
+PuntoFA,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,"Punto FA / Yakobi Trading, Panamá"
+RS-SII,objeto,objeto,Proyecto,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,Ruta del Sol Sector II
+RobertoPrieto,persona,dual,Intermediarios,"Gch2,Gch3,Gch4",,"Gerente campañas JMSC 2010/2014, condenado"
+SION,empresa,instrumental,Intermediarios,"Gch1,Gch2,Gch3,Gch4",SI,"Consorcio SION / Inversiones SION, vehículo Dumar lavado C-OG"
+SamuelOhevZion,persona,instrumental,Offshore,Gch2,,"Director CT Asia HK, brasileño"
+SocRS,empresa,privado,Proyecto,"Gch1,Gch2,Gch3,Gch4",SI,Sociedad Ruta del Sol
+SuperMin,institucion,publico,Estado,Gch3,,Superministerio JMSC
+TTU,empresa,instrumental,Intermediarios,"Gch1,Gch2,Gch3,Gch4",SI,"Técnicas Territoriales y Urbanas, España, contrato simulado Dumar"
+Terna2016,evento,objeto,Estado,"Gch3_v2,Gch4_v2",,"Terna presidencial abr-2016 (Cifuentes, Reyes, NHMN); CSJ elige a NHMN mediante Acuerdo 871 de 11-jul-2016 [dejusticia2019demanda]"
+TexfabHK,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,Hong Kong
+TransEqLaSabana,empresa,instrumental,Intermediarios,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"TransEquipos La Sabana - Mauricio Bula Jaraba, receptora de 3.000M COP para sobornos (Vernot 2019, Anexo IV)"
+Tunjuelo-Canoas,objeto,objeto,Proyecto,"Gch1,Gch2,Gch3,Gch4",SI,Túnel interceptor EAAB
+Valorcon,empresa,privado,Proyecto,"Gch3,Gch4",,Socio Navelena 13%
+VernonEmmanuelSalazarZurita,persona,privado,Intermediarios,Gch2,,Entorno OttoB
+YesidArocha,persona,privado,Odebrecht,"Gch1,Gch2,Gch2OttoB,Gch3,Gch4",SI,"Yesid Augusto Arocha Alarcón, directivo jurídico/rep ODB Colombia"
+Yunan,empresa,instrumental,Offshore,"Gch2,Gch2OttoB",,Yunan Business Corp
