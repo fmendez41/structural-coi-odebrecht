@@ -78,6 +78,19 @@ The GEXF files do not declare edge attributes. The separate provenance reconstru
 
 `notebook_edge_statements.csv` is the statement-level source table. `notebook_reconstruction_audit.csv` compares declared notebook graph compositions with their declared outputs. `source_archive_inventory.csv` lists all archive members, byte sizes, SHA-256 hashes, content categories, and redistribution decisions.
 
+`external_edge_audit.csv` contains one row for each unique undirected pair whose GEXF occurrence was not found in an active supplied notebook statement:
+
+| Column | Meaning |
+|---|---|
+| `source`, `target` | Alphabetically normalized endpoints of the undirected pair |
+| `networks` | Pipe-separated original GEXFs containing the pair |
+| `occurrences` | Number of period-network occurrences |
+| `audit_status` | `direct_support`, `context_only`, `period_mismatch`, or `not_supported` |
+| `source_ids` | Pipe-separated keys into `external_source_catalog.csv` |
+| `evidence_note` | Short paraphrase and any identity, period, or attribution caveat |
+
+`external_source_catalog.csv` contains `source_id`, title, publisher, source type, and public URL. A URL in the catalog is a discovery and audit reference, not permission to redistribute the linked document.
+
 ## Classification CSVs
 
 `clasificacion_nodos_v3.csv` has 155 rows; `clasificacion_nodos_v4.csv` has 157 rows. Both use these columns:
