@@ -1,0 +1,6 @@
+﻿notebook,composition_graph,components,declared_output,output_present,constructed_edges,deposited_edges,matched_edges,notebook_only_edges,gexf_only_edges,jaccard
+H1N1-Master1-ALLTIMES2022Noviembre.ipynb,G1,gpp|gpp1|ggaval|godeb|gch1,Gch1.gexf,yes,126,130,125,1,5,0.954198
+H1N1-Master1-ALLTIMES2022Noviembre.ipynb,G2,gpp|gpp2|ggaval|godeb|gch2,Gch2.gexf,yes,106,246,93,13,153,0.359073
+H1N1-Master1-ALLTIMES2022Noviembre.ipynb,G3,gpp|gpp1|ggaval|godeb|gch3,Gch3.gexf,yes,70,225,60,10,165,0.255319
+H1N1-Master1-ALLTIMES2022Noviembre.ipynb,G4,gpp|gpp1|ggaval|godeb|gch4,Gch4.gexf,yes,109,284,101,8,183,0.345890
+H1N1-Master1-ALLTIMES2022Noviembre.ipynb,GALLTIMES,gpp|gpp1|ggaval|godeb|gch1|gch2|gch3|gch4,GALLTIMES.gexf,no,284,,,,,

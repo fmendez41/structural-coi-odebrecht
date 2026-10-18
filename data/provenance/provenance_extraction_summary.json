@@ -1,0 +1,162 @@
+{
+  "notebooks": {
+    "H1N1-2009-2015-Copy2.ipynb": {
+      "active_add_edge_statements": 27,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-2009-2015.ipynb": {
+      "active_add_edge_statements": 48,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-allTimes.ipynb": {
+      "active_add_edge_statements": 39,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master.ipynb": {
+      "active_add_edge_statements": 39,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1-ALLTIMES.ipynb": {
+      "active_add_edge_statements": 75,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1-ALLTIMES1.ipynb": {
+      "active_add_edge_statements": 218,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1-ALLTIMES2022Noviembre.ipynb": {
+      "active_add_edge_statements": 346,
+      "compositions": {
+        "G1": [
+          "gpp",
+          "gpp1",
+          "ggaval",
+          "godeb",
+          "gch1"
+        ],
+        "G2": [
+          "gpp",
+          "gpp2",
+          "ggaval",
+          "godeb",
+          "gch2"
+        ],
+        "G3": [
+          "gpp",
+          "gpp1",
+          "ggaval",
+          "godeb",
+          "gch3"
+        ],
+        "G4": [
+          "gpp",
+          "gpp1",
+          "ggaval",
+          "godeb",
+          "gch4"
+        ],
+        "GALLTIMES": [
+          "gpp",
+          "gpp1",
+          "ggaval",
+          "godeb",
+          "gch1",
+          "gch2",
+          "gch3",
+          "gch4"
+        ]
+      },
+      "outputs": {
+        "Gch1.gexf": "G1",
+        "Gch2.gexf": "G2",
+        "Gch3.gexf": "G3",
+        "Gch4.gexf": "G4",
+        "GALLTIMES.gexf": "GALLTIMES"
+      }
+    },
+    "H1N1-Master1-Ch1-2009-2010.ipynb": {
+      "active_add_edge_statements": 23,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1-Ch2-2010-2014.ipynb": {
+      "active_add_edge_statements": 31,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1-Ch3-2015-2106.ipynb": {
+      "active_add_edge_statements": 38,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1-Ch4-2016-Present.ipynb": {
+      "active_add_edge_statements": 131,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1-Ch5AV.ipynb": {
+      "active_add_edge_statements": 11,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1-Demandadenulidad1.ipynb": {
+      "active_add_edge_statements": 37,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master1.ipynb": {
+      "active_add_edge_statements": 64,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1-Master2-Ch1-PresAUV.ipynb": {
+      "active_add_edge_statements": 79,
+      "compositions": {},
+      "outputs": {}
+    },
+    "H1N1.ipynb": {
+      "active_add_edge_statements": 38,
+      "compositions": {},
+      "outputs": {}
+    }
+  },
+  "active_add_edge_statements": 1244,
+  "networks": {
+    "Gch1.gexf": {
+      "nodes": 79,
+      "edges": 130,
+      "matched_edges": 127,
+      "unmatched_edges": 3
+    },
+    "Gch2.gexf": {
+      "nodes": 139,
+      "edges": 246,
+      "matched_edges": 179,
+      "unmatched_edges": 67
+    },
+    "Gch2OttoB.gexf": {
+      "nodes": 32,
+      "edges": 31,
+      "matched_edges": 13,
+      "unmatched_edges": 18
+    },
+    "Gch3.gexf": {
+      "nodes": 120,
+      "edges": 225,
+      "matched_edges": 214,
+      "unmatched_edges": 11
+    },
+    "Gch4.gexf": {
+      "nodes": 124,
+      "edges": 284,
+      "matched_edges": 271,
+      "unmatched_edges": 13
+    }
+  }
+}
