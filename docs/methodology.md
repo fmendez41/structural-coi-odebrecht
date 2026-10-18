@@ -16,6 +16,12 @@ The case is represented as static, undirected, unweighted networks for four peri
 
 The supplied documentation states that entity resolution reduced 169 raw labels to 155 canonical nodes through 13 merges and one exclusion. The v2 files add `Terna2016` and `DemandaNulidad2019` plus seven institutional edges, yielding a 157-node classification. Headline analyses use v2 for the two later periods; the link-prediction comparison uses v1 because the v2 additions are institutional facts known ex post.
 
+## Documentary construction trail
+
+The supplemental source archive contains 16 historical NetworkX notebooks. They build component graphs with explicit `add_edge` statements, frequently accompanied by comments or bibliography tokens, and the newest master notebook composes period graphs before writing GEXF files. A static extractor preserves that trail without executing old notebook code.
+
+This reconstruction distinguishes three levels of support: an exact node-pair match to an active notebook statement; an explicit comment/reference token attached to that statement; and an optional archive-filename candidate. Only the first two come directly from notebook syntax. Filename candidates are labelled unverified and no missing page, date, relation type, or citation is inferred.
+
 ## Three-stage framework
 
 ### Stage 1 - detection

@@ -49,12 +49,32 @@ The package's original README reports exact reproduction for the principal metri
 
 ## What cannot be regenerated from this repository alone
 
-- A complete edge-by-edge provenance audit cannot be regenerated because the ZIP contained no provenance table or source-document locator for every edge.
-- The original conversion from documentary sources to the first Gephi GEXF exports is not scripted.
-- No notebooks were supplied.
-- The manuscript source and third-party documentary PDFs/books were not present in the reproducibility ZIP and are not redistributed.
+- The supplied notebooks document most original edges, but they do not exactly regenerate every deposited GEXF in their current active form.
+- Of 916 edge occurrences across the original networks, 112 have no matching active `add_edge` statement in the supplied notebooks.
+- Explicit notebook reference tokens do not consistently provide a verified source-document filename and page locator. Candidate filename matches remain unverified.
+- The manuscript source and third-party documentary PDFs/books are not redistributed.
 
 These gaps do not prevent rerunning the released network analyses from the deposited GEXF files, but they do limit independent reconstruction of the networks from primary documents.
+
+## Rebuilding the provenance tables
+
+The original notebooks are retained under `notebooks/provenance-construction/`. To reconstruct the audit tables without executing notebook code:
+
+```bash
+python src/extract_notebook_provenance.py \
+  --notebook-dir notebooks/provenance-construction \
+  --network-dir data/networks/original \
+  --output-dir data/provenance \
+  --source-inventory data/provenance/source_archive_inventory.csv
+```
+
+The archive inventory was created from a local copy of `N1Ref.zip` with:
+
+```bash
+python src/inventory_source_archive.py N1Ref.zip data/provenance/source_archive_inventory.csv
+```
+
+The archive itself is intentionally not required for the network-metric reproduction route.
 
 ## Verification performed for this repository
 

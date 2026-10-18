@@ -57,7 +57,26 @@ The supplied documentation states that v2 adds two event nodes and seven edges a
 | `esfera` | Sphere | `publico`, `privado`, `instrumental`, `dual`, `objeto` |
 | `bloque` | Coarser affiliation used in inter-bloc tests | `Estado`, `Aval`, `Odebrecht`, `NHMN`, `Politicos`, `Intermediarios`, `Offshore`, `Proyecto`, `Solarte`, `Contexto` |
 
-The GEXF files do not declare edge attributes. Relation type, documentary reference, page, date, and evidentiary notes are therefore not available at edge level in the supplied data.
+The GEXF files do not declare edge attributes. The separate provenance reconstruction recovers notebook statements and comments where available, without inserting them into or otherwise changing the networks.
+
+## Provenance tables
+
+`data/provenance/edges_provenance.csv` contains one row per edge occurrence in each original deposited network:
+
+| Column | Meaning |
+|---|---|
+| `network` | Original GEXF in which the edge occurs |
+| `source`, `target` | Undirected edge endpoints, preserving the GEXF labels |
+| `match_status` | Whether an active notebook `add_edge` statement was found |
+| `notebook_files` | Supplied notebooks containing that node pair |
+| `graph_components` | Notebook graph variables receiving that edge |
+| `notebook_locations` | Notebook, cell, and source-line audit locators |
+| `evidence_notes` | Adjacent notebook comments preserved verbatim |
+| `reference_tokens` | Explicit reference-like tokens extracted from those comments |
+| `candidate_source_documents` | Archive filenames suggested by conservative title matching |
+| `candidate_status` | `unverified_title_match` when candidates exist |
+
+`notebook_edge_statements.csv` is the statement-level source table. `notebook_reconstruction_audit.csv` compares declared notebook graph compositions with their declared outputs. `source_archive_inventory.csv` lists all archive members, byte sizes, SHA-256 hashes, content categories, and redistribution decisions.
 
 ## Classification CSVs
 
