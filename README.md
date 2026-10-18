@@ -20,9 +20,9 @@ data/
     clean/          entity-resolved documentary baseline (v1)
     enriched/       institutionally enriched later-period networks (v2)
   classification/   v1 and v2 node classification tables
-  provenance/       provenance gap note; no edge-level provenance file was supplied
+  provenance/       reconstructed edge/notebook provenance and source inventory
 src/                Python analysis and figure-generation scripts
-notebooks/          no notebooks were supplied
+notebooks/          original network-construction notebooks from N1Ref.zip
 outputs/
   figures/          deposited PNG/PDF figures and regenerated figures
   tables/           deposited sensitivity CSV and text logs from reproduction
@@ -64,11 +64,13 @@ The supplied code provides a complete route to re-run the stated network metrics
 
 See [docs/reproduction.md](docs/reproduction.md) for the script-to-output map and verification notes.
 
-## Data and provenance limitations
+## Data and provenance status
 
-The ZIP did not include an edge-level provenance table connecting every relationship to a specific source document, page, date, or reference. No such metadata has been invented. The supplied materials do identify the two v2 event nodes and seven added institutional edges as anchored in the 2019 electoral-nullity petition, but do not provide a complete provenance record for all edges.
+The supplementary `N1Ref.zip` contains 16 historical construction notebooks and a documentary-source collection. Static analysis of active notebook statements matches 804 of 916 edge occurrences in the five original GEXF files. The resulting edge table preserves notebook/cell/line locations, adjacent comments, and explicit reference tokens. It also retains 112 unmatched edge occurrences instead of filling them speculatively.
 
-The manuscript PDF and third-party source documents are not redistributed here. The repository contains only the supplied analytical data, code, outputs, and the original reproducibility ZIP.
+The newest master notebook declares the period compositions and GEXF writes, but its active statements are not byte-for-byte or edge-for-edge equivalent to every deposited GEXF. These differences are quantified in `data/provenance/notebook_reconstruction_audit.csv`. Candidate document filenames are explicitly marked as unverified title matches; they are not treated as confirmed citations or page locators.
+
+The full source archive is identified by SHA-256 `28541C6BF17D501CD493C8197DA806D4B975C2FBFB1CC04958355FD828595EC1`. Its complete file inventory and per-file hashes are included, but third-party PDFs, books, downloaded web pages, and scans are not redistributed because their rights status has not been verified. The manuscript PDF is likewise not redistributed.
 
 ## License
 
