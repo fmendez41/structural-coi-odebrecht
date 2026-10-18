@@ -66,7 +66,9 @@ See [docs/reproduction.md](docs/reproduction.md) for the script-to-output map an
 
 ## Data and provenance status
 
-The supplementary `N1Ref.zip` contains 16 historical construction notebooks and a documentary-source collection. Static analysis of active notebook statements matches 804 of 916 edge occurrences in the five original GEXF files. The resulting edge table preserves notebook/cell/line locations, adjacent comments, and explicit reference tokens. It also retains 112 unmatched edge occurrences instead of filling them speculatively.
+The supplementary `N1Ref.zip` contains 16 historical construction notebooks and a documentary-source collection. Static analysis of active notebook statements matches 804 of 916 edge occurrences in the five original GEXF files. The resulting edge table preserves notebook/cell/line locations, adjacent comments, and explicit reference tokens. It also retains 112 unmatched edge occurrences instead of filling them speculatively. Those 112 occurrences correspond to 75 unique undirected pairs.
+
+A separate public-source audit of those 75 pairs is stored in `data/provenance/external_edge_audit.csv`, with normalized source metadata in `external_source_catalog.csv`. It identifies 60 directly supported candidates, 8 contextual-only relations, 2 period mismatches, and 5 relations not supported by the evidence reviewed. The decision rules and cautions are documented in `docs/external_provenance_audit.md`; the audit does not modify any original network or scientific result.
 
 The newest master notebook declares the period compositions and GEXF writes, but its active statements are not byte-for-byte or edge-for-edge equivalent to every deposited GEXF. These differences are quantified in `data/provenance/notebook_reconstruction_audit.csv`. Candidate document filenames are explicitly marked as unverified title matches; they are not treated as confirmed citations or page locators.
 
