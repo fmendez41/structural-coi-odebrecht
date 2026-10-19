@@ -1,5 +1,5 @@
-"""Table 10 + Figure 15 (fig09_group_dependence_Gch4) — P2b institutional
-capture: group path dependence in the 2016-19+ (v2) network."""
+"""Table 10 and figure — P2b institutionalized brokerage measured as
+group path dependence in the 2016-19+ (v2) network."""
 import os
 
 import matplotlib
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     for label, nodes in GROUPS:
         present = [n for n in nodes if n in G]
         pd_, inst = group_path_dependence(G, present)
-        results.append((label, inst))
+        results.append((label, pd_, inst))
         print(f"{label:<32}{pd_:>16.1f}%{inst:>11.1f}%")
 
     # Joint-removal effect of the headline construct
@@ -36,17 +36,26 @@ if __name__ == "__main__":
     print(f"\nJoint removal {{NHMN+firms+FGN}}: Δ dist {dd:+.1f}%, Δ eff {de:+.1f}%")
 
     # Figure
-    results.sort(key=lambda r: r[1])
+    results.sort(key=lambda r: r[2])
     labels = [r[0] for r in results]
-    vals = [r[1] for r in results]
+    dep_vals = [r[1] for r in results]
+    inst_vals = [r[2] for r in results]
     colors = ["#B8860B" if "NHMN" in l or "FGN" in l else "#7F8C8D"
               for l in labels]
     fig, ax = plt.subplots(figsize=(9.8, 5.2))
-    ax.barh(labels, vals, color=colors, alpha=0.9)
-    for i, v in enumerate(vals):
-        ax.text(v + 0.6, i, f"{v:.1f}%", va="center", fontsize=9)
+    y = list(range(len(labels)))
+    ax.barh([i + 0.18 for i in y], inst_vals, height=0.34,
+            color=colors, alpha=0.9, label="shortest-path instances")
+    ax.barh([i - 0.18 for i in y], dep_vals, height=0.34,
+            color="#555555", alpha=0.75, label="pairs fully dependent")
+    ax.set_yticks(y); ax.set_yticklabels(labels)
+    for i, (dep, inst) in enumerate(zip(dep_vals, inst_vals)):
+        ax.text(inst + 0.5, i + 0.18, f"{inst:.1f}%", va="center", fontsize=8.5)
+        ax.text(dep + 0.5, i - 0.18, f"{dep:.1f}%", va="center", fontsize=8.5)
     ax.set_xlabel("Share of Aval+ODB → Estado shortest-path instances traversed (%)")
-    ax.set_title("P2b — institutional capture, 2016–19+ network (v2)", fontsize=11)
+    ax.set_title("P2b — institutionalized brokerage (group path dependence)",
+                 fontsize=11)
+    ax.legend(loc="lower right", fontsize=8.5)
     ax.grid(axis="x", alpha=0.25)
     plt.tight_layout()
     out = os.path.join(ROOT, "outputs", "figures", "fig09_group_dependence_Gch4.png")

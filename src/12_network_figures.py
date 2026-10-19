@@ -211,7 +211,7 @@ NETS = [("pre-2010", "pre-2010 (Uribe era)",
          "transaction, Navelena, and the crossing into office",
          "fig04_network_Gch3"),
         ("2016-19+ v2", "2016–2019+ (judicialization, v2)",
-         "the facilitator as Attorney General", "fig05_network_Gch4")]
+         "the focal actor as Attorney General", "fig05_network_Gch4")]
 
 if __name__ == "__main__":
     print("Main-text network figures (selective labels):")

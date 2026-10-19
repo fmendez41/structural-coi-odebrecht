@@ -3,9 +3,12 @@ message: "If you use these materials, please cite the associated article and thi
 type: software
 title: "Structural COI - Odebrecht reproducibility materials"
 authors:
-  - family-names: "Mendez-Arenas"
-    given-names: "Andres Felipe"
+  - family-names: "Méndez-Arenas"
+    given-names: "Andrés Felipe"
     orcid: "https://orcid.org/0009-0002-4183-6472"
+    email: "and-mend@uniandes.edu.co"
 repository-code: "https://github.com/fmendez41/structural-coi-odebrecht"
 license: MIT
+version: 1.0.0
+date-released: 2026-10-19
 

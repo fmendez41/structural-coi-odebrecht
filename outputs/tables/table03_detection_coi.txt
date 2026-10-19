@@ -5,7 +5,7 @@
   3. OttoB                  COI= 1.41  (E_pub=1, E_priv=2)
   4. LuizBueno              COI= 1.41  (E_pub=1, E_priv=2)
   5. FedeGaviria            COI= 1.41  (E_pub=1, E_priv=2)
-  …9. NHMN COI=0.00 (E_pub=0, E_priv=6)
+  …NHMN exposure=0.00 (tied ranks 6–35; E_pub=0, E_priv=6)
 
 === 2010-14 ===
   1. OttoB                  COI= 4.47  (E_pub=2, E_priv=10)

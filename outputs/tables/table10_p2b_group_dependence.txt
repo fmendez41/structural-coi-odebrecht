@@ -1,14 +1,14 @@
 Group                             pairs fully dep.   instances
-NHMN (alone)                                21.1%       31.3%
-NHMN ego-cluster (6)                        22.4%       34.3%
-FGN (alone)                                 19.5%       31.4%
-NHMN + firms + FGN (7)                      38.6%       56.6%
-Cúpula Aval (LCSA+GAVAL+CFC)                10.8%       15.1%
-ConsRS                                       1.5%        9.5%
-Odebrecht (node)                             1.0%        7.2%
-GabrielGarciaM                               5.0%       11.0%
-OttoB                                        1.3%        4.5%
+NHMN (alone)                                19.8%       30.3%
+NHMN ego-cluster (6)                        21.2%       33.4%
+FGN (alone)                                 19.7%       31.7%
+NHMN + firms + FGN (7)                      37.8%       56.2%
+Cúpula Aval (LCSA+GAVAL+CFC)                10.6%       15.0%
+ConsRS                                       1.6%        9.7%
+Odebrecht (node)                             1.0%        7.4%
+GabrielGarciaM                               5.2%       11.3%
+OttoB                                        1.2%        4.4%
 
-Joint removal {NHMN+firms+FGN}: Δ dist +15.9%, Δ eff -15.3%
+Joint removal {NHMN+firms+FGN}: Δ dist +15.3%, Δ eff -15.3%
 
 ✓ .\outputs\figures\fig09_group_dependence_Gch4.png

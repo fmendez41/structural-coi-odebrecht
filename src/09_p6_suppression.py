@@ -1,7 +1,11 @@
-"""Table 11 + Figure 16 (fig10_suppression_Gch4) — P6 selective suppression:
-Resource Allocation over all unconnected dyads of the 2016-19+ (v2) network;
-rank of the FGN–Aval dyads; FGN–LCSG distance and common neighbors."""
+"""Table 11 and figure — P6 exploratory non-edge anomaly diagnostic.
+
+Resource Allocation is evaluated over all unconnected dyads in the
+2016-19+ (v2) network. Tied scores are reported as rank ranges because their
+internal ordering carries no information about suppression or protection.
+"""
 import os
+from collections import Counter
 
 import matplotlib
 matplotlib.use("Agg")
@@ -20,16 +24,25 @@ if __name__ == "__main__":
     G = load("2016-19+ v2")
     ranking = resource_allocation_ranking(G)
     print(f"Unconnected dyads: {len(ranking)}")
+    score_counts = Counter(row[0] for row in ranking)
+    score_ranges = {}
+    first = 1
+    for score in sorted(score_counts, reverse=True):
+        last = first + score_counts[score] - 1
+        score_ranges[score] = (first, last)
+        first = last + 1
     index = {}
-    for rank, (ra, u, v, cn) in enumerate(ranking, 1):
-        index[frozenset((u, v))] = (rank, ra, cn)
+    for ra, u, v, cn in ranking:
+        first, last = score_ranges[ra]
+        index[frozenset((u, v))] = (first, last, ra, cn)
 
-    print(f"\n{'Dyad':<24}{'rank':>7}{'RA':>8}{'common nbrs':>13}")
+    print(f"\n{'Dyad':<24}{'rank / tie range':>20}{'RA':>8}{'common nbrs':>13}")
     for u, v in WATCH:
         key = frozenset((u, v))
         if key in index:
-            rank, ra, cn = index[key]
-            print(f"{u+'—'+v:<24}{rank:>7}{ra:>8.3f}{cn:>13}")
+            first, last, ra, cn = index[key]
+            rank_label = f"{first}" if first == last else f"{first}–{last}"
+            print(f"{u+'—'+v:<24}{rank_label:>20}{ra:>8.3f}{cn:>13}")
         elif G.has_edge(u, v):
             print(f"{u+'—'+v:<24}   (edge exists)")
 
@@ -59,10 +72,13 @@ if __name__ == "__main__":
     for u, v in WATCH:
         key = frozenset((u, v))
         if u in pos and v in pos and key in index:
-            rank = index[key][0]
+            first, last, ra, _ = index[key]
             x, y = [pos[u][0], pos[v][0]], [pos[u][1], pos[v][1]]
             ax.plot(x, y, "r--", lw=1.6, alpha=0.75, zorder=2)
-            ax.annotate(f"rank {rank:,}", ((x[0]+x[1])/2, (y[0]+y[1])/2),
+            rank_label = (f"rank {first:,}" if first == last
+                          else ("RA=0 tie" if ra == 0
+                                else f"tie {first:,}–{last:,}"))
+            ax.annotate(rank_label, ((x[0]+x[1])/2, (y[0]+y[1])/2),
                         fontsize=8.5, color="#B00000", fontweight="bold",
                         ha="center", zorder=5,
                         path_effects=[pe.withStroke(linewidth=2.5,
@@ -90,7 +106,7 @@ if __name__ == "__main__":
                         xytext=(0, 8), textcoords="offset points",
                         path_effects=[pe.withStroke(linewidth=2.8,
                                                     foreground="white")])
-    ax.set_title("Selective suppression — FGN neighborhood, 2016–2019+ (v2)\n",
+    ax.set_title("Exploratory non-edge anomalies — FGN neighborhood, 2016–2019+ (v2)\n",
                  fontsize=14, fontweight="bold")
     ax.axis("off")
     plt.tight_layout()

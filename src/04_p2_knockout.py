@@ -46,7 +46,7 @@ if __name__ == "__main__":
     for i, v in enumerate(vals):
         ax.text(v + 0.15, i, f"+{v:.1f}%", va="center", fontsize=9)
     ax.set_xlabel("Δ mean geodesic distance, Aval+ODB → Estado (%)")
-    ax.set_title("Comparative knockout — 2014–16 network (v2)", fontsize=11)
+    ax.set_title("Comparative node-removal effects — 2014–16 network (v2)", fontsize=11)
     ax.grid(axis="x", alpha=0.25)
     plt.tight_layout()
     out = os.path.join(ROOT, "outputs", "figures", "fig07_knockout_Gch3.png")

@@ -1,10 +1,10 @@
 Removed                    Δ dist    Δ eff  components
-NHMN (alone)               +13.3%   -4.01%           1
-NHMN ego-cluster (6)       +14.9%   -4.67%           1
-GabrielGarciaM              +3.5%   -1.13%           1
+NHMN (alone)               +11.4%   -4.01%           1
+NHMN ego-cluster (6)       +13.1%   -4.67%           1
+GabrielGarciaM              +3.7%   -1.13%           1
 BernardoNElias              +0.5%   -0.67%           1
 JEliasMelo                  +0.5%   -0.24%           1
-LuizBueno                   +0.1%   -0.14%           1
+LuizBueno                   +0.2%   -0.14%           1
 LCSA                        +0.1%   +0.05%           1
 LuisFAndrade                -0.0%   -1.25%           2
 OttoB                       +0.0%   -3.36%           2

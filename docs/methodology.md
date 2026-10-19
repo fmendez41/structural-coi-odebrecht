@@ -24,7 +24,7 @@ This reconstruction distinguishes three levels of support: an exact node-pair ma
 
 ## Three-stage framework
 
-### Stage 1 - detection
+### Stage 1 - target-agnostic exposure ranking
 
 For each person node, the code calculates a dual-exposure index:
 
@@ -43,11 +43,11 @@ The code calculates or compares:
 - sphere-split Jaccard stability of the focal ego network;
 - degree and clientele retention for the supplied corporate-vehicle set.
 
-The constitutive public set used by the released code is `{CSJ, FGN, FGNAdhoc}`. The facilitator ego-cluster is `{NHMN, M&MACLtda, MNA, EstudioJuridicoMNALtda, NHMAbogados, NCMH}`.
+The constitutive public set used by the released code is `{CSJ, FGN, FGNAdhoc}`. The focal structural-broker ego-cluster is `{NHMN, M&MACLtda, MNA, EstudioJuridicoMNALtda, NHMAbogados, NCMH}`.
 
-### Stage 3 - materialization
+### Stage 3 - structural manifestation and institutional embedding
 
-The group path-dependence calculation reports the share of source-target pairs for which every shortest path traverses the specified group and the share of shortest-path instances that traverse it. Resource Allocation is calculated for every unconnected dyad and ranked as unrealized structural pressure.
+The group path-dependence calculation reports the share of source-target pairs for which every shortest path traverses the specified group and the share of shortest-path instances that traverse it. Event and object nodes remain available as path intermediaries but are excluded as endpoints in P2, P2b, and P3. Resource Allocation is calculated for every unconnected dyad and ranked as unrealized structural pressure; tied scores are reported as rank ranges.
 
 ## Scope stated in the manuscript
 
@@ -57,7 +57,7 @@ An edge records a documented relation such as contract, payment, representation,
 
 - Networks are read with NetworkX from the released GEXF files.
 - Global-efficiency and geodesic calculations use the undirected graphs as stored.
-- Louvain detection is seeded with `42`.
+- Louvain community detection is seeded with `42` under the locked NetworkX 3.4.2 environment.
 - Figure layouts use NetworkX spring layout with `seed=42`.
 - The code does not read the classification CSVs during metric computation because the clean/enriched GEXF files already carry `tipo`, `esfera`, and `bloque` node attributes.
 

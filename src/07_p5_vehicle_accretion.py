@@ -8,9 +8,11 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-from coi_lib import ROOT, load_all
+from coi_lib import (ROOT, load_all, NHMN_FIRMS, unified_firm_clientele,
+                     jaccard_retention)
 
 FIRMS = ["M&MACLtda", "MNA", "EstudioJuridicoMNALtda", "NHMAbogados"]
+assert set(FIRMS) == NHMN_FIRMS
 
 if __name__ == "__main__":
     nets = load_all(v2=True)
@@ -24,25 +26,21 @@ if __name__ == "__main__":
         print(f"{f:<24}" + "".join(
             f"{(str(v) if v is not None else '—'):>14}" for v in row))
 
-    # Unified clientele: union of firm neighborhoods, retention across periods
+    # Unified clientele: raw union of firm neighborhoods in each period.
+    # New or disappearing nodes count in the Jaccard union; restricting to
+    # nodes common to adjacent networks would inflate stability.
     print("\nUnified clientele of the firms (union of neighborhoods):")
     prev = None
     for n in names:
         G = nets[n]
-        cli = set()
-        for f in FIRMS:
-            if f in G:
-                cli |= set(G.neighbors(f))
-        cli -= set(FIRMS) | {"NHMN", "NCMH"}
+        cli = unified_firm_clientele(G)
         if prev is not None:
-            common = set(G.nodes()) & prev_nodes
-            a, b = prev & common, cli & common
-            j = len(a & b) / len(a | b) if (a | b) else float("nan")
-            ret = f"{len(a & b)}/{len(a)}" if a else "—"
+            j, retained, previous_total = jaccard_retention(prev, cli)
+            ret = f"{retained}/{previous_total}" if previous_total else "—"
             print(f"  {n:<14} |clientele|={len(cli):>2}  retention={ret}  Jaccard={j:.3f}")
         else:
             print(f"  {n:<14} |clientele|={len(cli):>2}")
-        prev, prev_nodes = cli, set(G.nodes())
+        prev = cli
 
     # Figure: heatmap of vehicle degrees
     data = np.array([[v if v is not None else 0 for v in row]

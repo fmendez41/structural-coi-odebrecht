@@ -50,7 +50,8 @@ def main() -> None:
             env=child_env,
         )
         clean_stdout = result.stdout.replace(str(ROOT), ".")
-        (TABLES / log_name).write_text(clean_stdout, encoding="utf-8")
+        clean_stdout = "\n".join(line.rstrip() for line in clean_stdout.splitlines()) + "\n"
+        (TABLES / log_name).write_text(clean_stdout, encoding="utf-8", newline="\n")
         if result.stderr:
             sys.stderr.write(result.stderr)
     print("Reproduction completed successfully.")

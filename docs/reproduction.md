@@ -2,7 +2,7 @@
 
 ## Environment
 
-The supplied package specifies Python 3.10 or later with NetworkX 3.0 or later, NumPy, and Matplotlib.
+The locked environment uses Python 3.12 or later, NetworkX 3.4.2, NumPy 2.5.4, and Matplotlib 3.11.2.
 
 ```bash
 python -m venv .venv
@@ -16,6 +16,7 @@ python -m pip install -r requirements.txt
 From the repository root:
 
 ```bash
+python verify_results.py
 python reproduce.py
 ```
 
@@ -26,26 +27,24 @@ The wrapper executes the original scripts in filename order. It does not reimple
 | Script | Article output |
 |---|---|
 | `01_overview_metrics.py` | Table 2 - network overview and temporal dynamics |
-| `02_detection_coi.py` | Table 3 - unsupervised COI detection |
+| `02_detection_coi.py` | Table 3 - target-agnostic dual-exposure ranking |
 | `03_p1_trajectory.py` | Table 4 and trajectory figure |
 | `04_p2_knockout.py` | Table 5 and knockout figure; also v1 comparison described by the package |
 | `05_p3_group_betweenness.py` | Table 6 - group-restricted betweenness |
 | `06_p4_ego_stability.py` | Table 7 and ego-stability figure |
 | `07_p5_vehicle_accretion.py` | Table 8 and vehicle-accretion figure |
-| `11_conduit_facilitator.py` | Table 9 and conduit/facilitator figure |
-| `08_p2b_group_dependence.py` | Table 10 and group-dependence figure |
-| `09_p6_suppression.py` | Table 11 and suppression figure |
+| `11_conduit_facilitator.py` | Table 9 and conduit/structural-broker figure (legacy filename retained for compatibility) |
+| `08_p2b_group_dependence.py` | Table 10 - institutionalized brokerage/group path dependence and figure |
+| `09_p6_suppression.py` | Table 11 - exploratory non-edge anomaly diagnostic and figure (legacy filename retained for compatibility) |
 | `10_link_prediction.py` | Table 12 - negative link-prediction result |
 | `12_network_figures.py` | Main network figures, ego views, and appendix full-label figures |
 
-## Expected qualifications from the supplied package
+## Fixed analytical conventions
 
-The package's original README reports exact reproduction for the principal metrics except for explicitly documented conventions:
-
-- Table 10 can vary by less than one percentage point because of path-enumeration ties.
-- Table 11 headline ranks are exact; ordering among deep-tail zero-score ties can vary.
-- The released v2 knockout implementation produces `+13.3%` for NHMN alone (`+14.9%` for the ego-cluster), whereas the paper's original computation reports `+11.4%` (`+13.1%`). The supplied package attributes this to the common distance convention used in the released scripts. The rankings, efficiency changes, and v1 comparison are stated to remain invariant or exact.
-- Louvain-related values may change in the second decimal across NetworkX versions despite `seed=42`.
+- P2, P2b, and P3 use nodes in the Aval/Odebrecht and Estado blocs as endpoints, excluding nodes whose type is `evento` or `objeto`. Those nodes remain in the graph and may lie on a shortest path. This reproduces `+11.4%`/`+13.1%` in Table 5, `0.0224` in Table 6, and `37.8%`/`56.2%` in Table 10.
+- P5 compares the raw clienteles in adjacent periods. It does not restrict the sets to nodes that happen to be present in both networks; the resulting Jaccard sequence is `0.286`, `0.778`, `1.000`.
+- Resource Allocation score ties are represented as rank ranges. The stable headline result is FGN--CFC at rank 8 of 6,387; FGN--LCSG has RA = 0, zero common neighbors, and distance 3, but no unique rank inside the zero-score tail.
+- Louvain uses `seed=42` and NetworkX 3.4.2. NetworkX 3.7 produces a different seeded partition, which is why the version is pinned rather than specified as an open lower bound.
 
 ## What cannot be regenerated from this repository alone
 
@@ -78,12 +77,5 @@ The archive itself is intentionally not required for the network-metric reproduc
 
 ## Verification performed for this repository
 
-The full wrapper completed successfully on 2026-10-17 with Python 3.14.3, NetworkX 3.7, NumPy 2.5.4, and Matplotlib 3.11.2. All 12 scripts ran, all 35 deposited figure filenames were regenerated, and table output was captured in `outputs/tables/`.
-
-The rerun reproduced the headline COI values, rankings, percentiles, knockout efficiency changes, sphere-split Jaccard values, link-prediction result, suppression ranks, and other values highlighted by the supplied package. It also reproduced the documented convention-dependent outcomes: v2 knockout distance of `+13.3%` for NHMN alone and group-path instance share of `56.6%`.
-
-Two environment-sensitive observations should be retained:
-
-- Under NetworkX 3.7, the participation coefficients printed for NHMN were `0.500`, `0.473`, `0.768`, and `0.655`. These differ from some values cited in the supplied package, consistent with its warning that Louvain partitions can vary by NetworkX version. The package did not provide the exact original dependency versions, so an exact environment lock cannot be reconstructed without additional information.
-- Regenerated figure files were not byte-identical to the deposited figures under this environment. This is expected for NetworkX/Matplotlib layout and rendering changes. After verification, the repository copy of `outputs/figures/` was restored byte-for-byte from the supplied ZIP; the generated text logs were retained.
+The full wrapper and `verify_results.py` completed successfully on 2026-10-19 with Python 3.14.3, NetworkX 3.4.2, NumPy 2.5.4, and Matplotlib 3.11.2. All 12 scripts ran, all 35 figure files were regenerated, and every headline numerical check passed. The figures deposited in `outputs/figures/` are the same files supplied to the final LaTeX package.
 

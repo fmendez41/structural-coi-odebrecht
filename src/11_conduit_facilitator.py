@@ -1,6 +1,6 @@
-"""Table 9 + Figure 14 (fig12_conduit_facilitator) — §5.3.6 discriminant
-validity: Otto Bula (conduit) vs NHMN (facilitator) on COI trajectory,
-group-restricted betweenness, knockout, and neighbor composition."""
+"""Table 9 and comparison figure — Otto Bula (conduit) versus NHMN
+(persistent structural broker) on exposure trajectory, inter-bloc path share,
+node-removal effects, and neighbor composition."""
 import os
 from collections import Counter
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
             share = group_restricted_betweenness(G, a)
             grb[a].append(100 * share)
             dd, de, _ = knockout(G, [a])
-            print(f"  {a:<7} COI={c:5.2f} (pub={ep},priv={epr})  "
+            print(f"  {a:<7} exposure={c:5.2f} (pub={ep},priv={epr})  "
                   f"bc pct={pct:5.1f} (rank {rank}/{npers})  "
                   f"inter-bloc share={100*share:5.1f}%  knockout Δdist={dd:+.1f}%")
 
@@ -40,12 +40,12 @@ if __name__ == "__main__":
     fig, axes = plt.subplots(1, 2, figsize=(11.5, 4.2))
     ax = axes[0]
     ax.plot(range(4), coi["NHMN"], "o-", color=GOLD, lw=2.2, ms=7,
-            label="NHMN (facilitator)")
+            label="NHMN (structural broker)")
     ax.plot(range(4), coi["OttoB"], "s--", color=PURPLE, lw=2.2, ms=7,
             label="OttoB (conduit)")
     ax.set_xticks(range(4)); ax.set_xticklabels(periods, fontsize=9)
-    ax.set_ylabel("Dual-exposure COI index")
-    ax.set_title("(a) COI trajectory: peak-and-decay vs. monotonic ascent",
+    ax.set_ylabel("Dual-exposure structural COI-risk score")
+    ax.set_title("(a) Exposure trajectory: peak-and-decay vs. monotonic ascent",
                  fontsize=10.5)
     ax.legend(fontsize=9, loc="upper left"); ax.grid(alpha=0.25)
 

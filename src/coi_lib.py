@@ -1,9 +1,8 @@
-"""
-coi_lib.py — Shared library for the COI–Odebrecht analysis.
+"""Shared metrics for the structural COI-risk analysis.
 
-Implements the metrics of the three-stage framework described in
-"Quantifying Conflict of Interest as a Precursor of Corruption"
-(Méndez-Arenas, submitted to Journal of Complex Networks).
+Implements the framework described in "Quantifying Structural
+Conflict-of-Interest Risk in Corruption Networks: A Temporal Network
+Analysis of the Odebrecht Case in Colombia".
 
 All functions operate on the released GEXF files; node attributes used:
   tipo   : persona / institucion / empresa / vehiculo / objeto / evento
@@ -44,11 +43,17 @@ PERIODS_V1 = ["pre-2010", "2010-14", "2014-16", "2016-19+"]
 SRC_BLOC = {"Aval", "Odebrecht"}          # private blocs (sources)
 TGT_BLOC = {"Estado"}                     # State bloc (targets)
 
-# Facilitator ego-cluster: focal individual + four sequential firms + son
-NHMN_EGO = {"NHMN", "M&MACLtda", "MNA", "EstudioJuridicoMNALtda",
-            "NHMAbogados", "NCMH"}
+# Event and object nodes remain available as intermediaries in every path,
+# but they are not actors or institutions eligible to serve as source/target
+# endpoints. This convention is required for the paper's P2, P2b, and P3
+# values and is stated explicitly in the reproduction documentation.
+ENDPOINT_EXCLUDED_TYPES = {"evento", "objeto"}
 
-# Constitutive public contacts (P4 sphere split, pre-registered)
+# Focal structural-broker ego-cluster: individual + four sequential firms + son
+NHMN_FIRMS = {"M&MACLtda", "MNA", "EstudioJuridicoMNALtda", "NHMAbogados"}
+NHMN_EGO = {"NHMN", *NHMN_FIRMS, "NCMH"}
+
+# Constitutive public contacts (P4 pre-specified sphere split)
 CONSTITUTIVE = {"CSJ", "FGN", "FGNAdhoc"}
 
 
@@ -64,7 +69,7 @@ def load_all(v2=True):
 
 
 # ----------------------------------------------------------------------
-# Stage 1 — detection: dual-exposure COI index
+# Stage 1 — target-agnostic ranking: dual-exposure structural-risk score
 # ----------------------------------------------------------------------
 def coi_index(G, node):
     """COI(v) = sqrt(E_pub(v) * E_priv(v)), counted over v's neighbors."""
@@ -86,6 +91,29 @@ def coi_ranking(G):
         coi, ep, epr = coi_index(G, n)
         rows.append((coi, n, ep, epr))
     return sorted(rows, reverse=True)
+
+
+def source_target_nodes(G, src=SRC_BLOC, tgt=TGT_BLOC, excluded=None):
+    """Return eligible inter-bloc endpoint sets.
+
+    Event/object nodes are excluded only as endpoints; they remain in ``G``
+    and can therefore lie on shortest paths. ``excluded`` is used for group
+    path-dependence calculations, where group members cannot be endpoints.
+    """
+    excluded = set(excluded or ())
+    sources = [
+        n for n, d in G.nodes(data=True)
+        if d.get("bloque") in src
+        and d.get("tipo") not in ENDPOINT_EXCLUDED_TYPES
+        and n not in excluded
+    ]
+    targets = [
+        n for n, d in G.nodes(data=True)
+        if d.get("bloque") in tgt
+        and d.get("tipo") not in ENDPOINT_EXCLUDED_TYPES
+        and n not in excluded
+    ]
+    return sources, targets
 
 
 # ----------------------------------------------------------------------
@@ -123,8 +151,7 @@ def participation_coefficient(G, node, partition=None):
 def mean_interbloc_distance(G, src=SRC_BLOC, tgt=TGT_BLOC):
     """Mean geodesic distance over directed source–target instances
     (unreachable pairs are skipped)."""
-    sources = [n for n in G.nodes() if G.nodes[n].get("bloque") in src]
-    targets = [n for n in G.nodes() if G.nodes[n].get("bloque") in tgt]
+    sources, targets = source_target_nodes(G, src, tgt)
     dists = []
     for s in sources:
         sp = nx.single_source_shortest_path_length(G, s)
@@ -147,14 +174,15 @@ def knockout(G, removed, src=SRC_BLOC, tgt=TGT_BLOC):
 
 
 def group_restricted_betweenness(G, actor, src=SRC_BLOC, tgt=TGT_BLOC):
-    """P3: share of all shortest-path instances between the private blocs
-    and the State that pass through `actor` (as an interior node)."""
+    """Share of inter-bloc shortest-path instances traversing ``actor``.
+
+    This descriptive percentage is used in the conduit/broker comparison.
+    The normalized subset-betweenness values reported in Table 6 are produced
+    by :func:`subset_betweenness_profile`.
+    """
     if actor not in G:
         return None
-    sources = [n for n in G.nodes()
-               if G.nodes[n].get("bloque") in src and n != actor]
-    targets = [n for n in G.nodes()
-               if G.nodes[n].get("bloque") in tgt and n != actor]
+    sources, targets = source_target_nodes(G, src, tgt, excluded={actor})
     total = through = 0
     for s in sources:
         for t in targets:
@@ -167,6 +195,24 @@ def group_restricted_betweenness(G, actor, src=SRC_BLOC, tgt=TGT_BLOC):
             total += len(paths)
             through += sum(1 for p in paths if actor in p[1:-1])
     return through / total if total else 0.0
+
+
+def subset_betweenness_profile(G, actor, src=SRC_BLOC, tgt=TGT_BLOC):
+    """Normalized P3 subset betweenness, network-wide rank, and leader.
+
+    NetworkX applies the same whole-network normalization used for ordinary
+    normalized betweenness. Ranks include every node because institutions can
+    lead this inter-bloc measure (as FGN does in the judicial period).
+    """
+    if actor not in G:
+        return None
+    sources, targets = source_target_nodes(G, src, tgt)
+    values = nx.betweenness_centrality_subset(
+        G, sources=sources, targets=targets, normalized=True
+    )
+    ordered = sorted(values, key=lambda n: (-values[n], n))
+    leader = ordered[0]
+    return values[actor], ordered.index(actor) + 1, leader, values[leader]
 
 
 def ego_jaccard_split(G_a, G_b, node, constitutive=CONSTITUTIVE):
@@ -193,18 +239,33 @@ def ego_jaccard_split(G_a, G_b, node, constitutive=CONSTITUTIVE):
     return res
 
 
+def unified_firm_clientele(G, firms=NHMN_FIRMS):
+    """Union of firm neighborhoods, excluding the firms and family cluster."""
+    clientele = set()
+    for firm in firms:
+        if firm in G:
+            clientele.update(G.neighbors(firm))
+    return clientele - set(firms) - {"NHMN", "NCMH"}
+
+
+def jaccard_retention(previous, current):
+    """Raw-set Jaccard and retention counts for consecutive clienteles."""
+    previous, current = set(previous), set(current)
+    union = previous | current
+    intersection = previous & current
+    jaccard = len(intersection) / len(union) if union else float("nan")
+    return jaccard, len(intersection), len(previous)
+
+
 # ----------------------------------------------------------------------
-# Stage 3 — materialization
+# Stage 3 — structural manifestation and institutional embedding
 # ----------------------------------------------------------------------
 def group_path_dependence(G, group, src=SRC_BLOC, tgt=TGT_BLOC):
     """P2b: (share of s–t pairs whose EVERY shortest path traverses the
     group, share of shortest-path INSTANCES that traverse it).
     Group members are excluded from the endpoint sets."""
     gset = set(group)
-    sources = [n for n in G.nodes()
-               if G.nodes[n].get("bloque") in src and n not in gset]
-    targets = [n for n in G.nodes()
-               if G.nodes[n].get("bloque") in tgt and n not in gset]
+    sources, targets = source_target_nodes(G, src, tgt, excluded=gset)
     pairs = pairs_dep = inst = inst_dep = 0
     for s in sources:
         for t in targets:

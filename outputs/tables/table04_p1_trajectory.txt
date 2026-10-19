@@ -1,6 +1,6 @@
-pre-2010       k=  6  C_B=0.0713  pct= 83.6  P=0.500  COI=0.00 (rank 9/35)
-2010-14        k= 13  C_B=0.0858  pct= 93.1  P=0.473  COI=3.16 (rank 2/70)
-2014-16 v2     k= 17  C_B=0.1741  pct= 99.1  P=0.768  COI=6.00 (rank 1/49)
-2016-19+ v2    k= 20  C_B=0.1567  pct= 98.3  P=0.655  COI=7.35 (rank 1/56)
+pre-2010       k=  6  C_B=0.0713  pct= 83.6  P=0.500  exposure=0.00 (rank 6–35 tie/35)
+2010-14        k= 13  C_B=0.0858  pct= 93.1  P=0.473  exposure=3.16 (rank 2/70)
+2014-16 v2     k= 17  C_B=0.1741  pct= 99.1  P=0.720  exposure=6.00 (rank 1/49)
+2016-19+ v2    k= 20  C_B=0.1567  pct= 98.3  P=0.655  exposure=7.35 (rank 1/56)
 
 ✓ .\outputs\figures\fig06_nhmn_trajectory.png

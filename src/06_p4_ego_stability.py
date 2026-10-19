@@ -1,5 +1,5 @@
-"""Table 7 + Figure 12 (fig08_ego_stability) — P4 persistence with the
-pre-registered sphere split: Jaccard stability of NHMN's ego network
+"""Table 7 + ego-stability figure — P4 persistence with the
+pre-specified sphere split: Jaccard stability of NHMN's ego network
 between consecutive periods (private / public-transactional / public-constitutive)."""
 import os
 
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     ax.set_xticks(range(3)); ax.set_xticklabels(labels, fontsize=9)
     ax.set_ylabel("Jaccard stability of ego neighborhood")
     ax.set_ylim(-0.05, 1.08)
-    ax.set_title("P4 — sphere-split ego stability of the facilitator (v2)",
+    ax.set_title("P4 — pre-specified sphere-split ego stability (v2)",
                  fontsize=11)
     ax.legend(fontsize=9); ax.grid(alpha=0.25)
     plt.tight_layout()

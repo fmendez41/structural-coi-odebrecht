@@ -2,12 +2,13 @@
 
 Reproducibility materials for **“Quantifying Structural Conflict-of-Interest Risk in Corruption Networks: A Temporal Network Analysis of the Odebrecht Case in Colombia.”**
 
-Author: Andres Felipe Mendez-Arenas  
+Author: Andrés Felipe Méndez-Arenas
+
 ORCID: [0009-0002-4183-6472](https://orcid.org/0009-0002-4183-6472)
 
 ## Scope
 
-This repository reorganizes the files supplied in `COI_Odebrecht_reproducibility.zip`. It contains the GEXF networks, node-classification CSVs, analysis code, and deposited outputs used for the article. No scientific formulas, parameters, or reported results were changed. The only code changes are repository-relative input and output paths.
+This repository contains the GEXF networks, node-classification CSVs, analysis code, and deposited outputs used for the article. The released code documents the source--target endpoint convention used in P2, P2b, and P3, reports tied ranks explicitly, and compares the raw period clienteles for P5. These implementation details align the scripts with the article's reported results; no network observation is changed.
 
 The networks reconstruct documented relations from public judicial, arbitral, administrative, oversight, and journalistic sources. An edge represents a documented relation, not its intensity. The article treats the results as structural findings and not as independent proof of intention or legal responsibility.
 
@@ -33,13 +34,14 @@ docs/               methodology, data dictionary, and reproduction guide
 
 ## Quick reproduction
 
-Python 3.10 or later is recommended by the supplied package.
+Python 3.12 or later is recommended for the locked environment.
 
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
 python -m pip install -r requirements.txt
+python verify_results.py
 python reproduce.py
 ```
 
@@ -55,12 +57,15 @@ The scripts print the article tables. `reproduce.py` preserves that output as UT
 
 ## Reproducibility status
 
-The supplied code provides a complete route to re-run the stated network metrics and regenerate the deposited figures from the released GEXF files. The package itself records two qualifications:
+The code provides a complete route to rerun the network metrics and regenerate the deposited figures from the released GEXF files. `verify_results.py` checks the numerical values highlighted in the manuscript before the full figure-generation run.
 
-- Table 10 group-dependence values may differ by less than one percentage point because of shortest-path tie enumeration.
-- Deep-tail Resource Allocation ranks among zero-score ties may vary with tie order.
-- For the v2 knockout distance, the released implementation applies one common convention and reports `+13.3%` for NHMN alone, while the paper reports `+11.4%` from the original computation; the package documents the convention difference.
-- Louvain community detection is seeded with `42`; second-decimal variation may still occur across NetworkX versions.
+Three conventions are fixed explicitly:
+
+- Event and object nodes remain in the topology and may lie on shortest paths, but they are excluded as source/target endpoints in P2, P2b, and P3. This reproduces the manuscript's knockout, subset-betweenness, and group-dependence values.
+- P5 Jaccard uses the raw union of firm clienteles in adjacent periods; new or disappearing nodes remain in the denominator.
+- Resource Allocation ties are reported as rank ranges. A zero-score dyad is not assigned a substantively meaningful ordinal position within the zero-score tail.
+
+The dependency versions are locked in `requirements.txt`. In particular, NetworkX 3.4.2 reproduces the seeded Louvain modularity and participation values reported in the manuscript; NetworkX 3.7 changed those seeded partitions.
 
 See [docs/reproduction.md](docs/reproduction.md) for the script-to-output map and verification notes.
 
@@ -76,5 +81,5 @@ The full source archive is identified by SHA-256 `28541C6BF17D501CD493C8197DA806
 
 ## License
 
-The MIT license in this repository applies to the software and repository documentation. It does not relicense third-party source documents or imply ownership of underlying public records. A separate data license was not supplied, so no data license has been asserted.
+Code and documentation are MIT licensed. The author-created network compilations, classification tables, and provenance tables are licensed CC BY 4.0. Neither license applies to underlying third-party records or works. See [LICENSES.md](LICENSES.md).
 
