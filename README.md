@@ -6,6 +6,8 @@ Author: Andrés Felipe Méndez-Arenas
 
 ORCID: [0009-0002-4183-6472](https://orcid.org/0009-0002-4183-6472)
 
+Archived release: [Zenodo DOI 10.5281/zenodo.23485294](https://doi.org/10.5281/zenodo.23485294)
+
 ## Scope
 
 This repository contains the GEXF networks, node-classification CSVs, analysis code, and deposited outputs used for the article. The released code documents the source--target endpoint convention used in P2, P2b, and P3, reports tied ranks explicitly, and compares the raw period clienteles for P5. These implementation details align the scripts with the article's reported results; no network observation is changed.
